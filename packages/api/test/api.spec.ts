@@ -5,7 +5,7 @@ import { jest } from '@jest/globals';
 
 import { ApiPromise, WsProvider } from '@polkadot/api';
 
-describe.skip('misc online tests', (): void => {
+describe('misc online tests', (): void => {
   let api: ApiPromise;
 
   beforeEach(async () => {
@@ -13,7 +13,7 @@ describe.skip('misc online tests', (): void => {
     process.env.NODE_ENV = 'test';
 
     // const provider = new WsProvider('wss://kusama-rpc.polkadot.io');
-    const provider = new WsProvider('wss://westend-rpc.polkadot.io/');
+    const provider = new WsProvider('ws://127.0.0.1:9944');
 
     api = await ApiPromise.create({ provider });
   });
@@ -27,7 +27,7 @@ describe.skip('misc online tests', (): void => {
     console.error(api.rx.rpc.chain.getBlock.meta);
   });
 
-  it.skip('retrieves balances correctly', async (): Promise<void> => {
+  it('retrieves balances correctly', async (): Promise<void> => {
     console.error(JSON.stringify(
       await api.query.system.account('FPzukZw2mphWsXDqdkNzLaxnanjZEWH9i2vqwobTdtde5me')
     ));
@@ -36,7 +36,7 @@ describe.skip('misc online tests', (): void => {
     ));
   });
 
-  it.skip('handles map keys', async (): Promise<void> => {
+  it('handles map keys', async (): Promise<void> => {
     console.time('map.keys');
 
     const keys = await api.query.system.account.keys();
@@ -46,7 +46,7 @@ describe.skip('misc online tests', (): void => {
     console.timeEnd('map.keys');
   });
 
-  it.skip('handles map entries', async (): Promise<void> => {
+  it('handles map entries', async (): Promise<void> => {
     console.time('map.entries');
 
     const entries = await api.query.system.account.entries(); // api.query.indices.accounts.entries();
@@ -56,7 +56,7 @@ describe.skip('misc online tests', (): void => {
     console.timeEnd('map.entries');
   });
 
-  it.skip('handles doublemap entries', async (): Promise<void> => {
+  it('handles doublemap entries', async (): Promise<void> => {
     const activeEra = await api.query.staking.activeEra();
 
     console.error(JSON.stringify(
