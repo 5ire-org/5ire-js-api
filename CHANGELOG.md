@@ -2,9 +2,29 @@
 
 ## master
 
+Contributed:
+
+- Update `BeefySignedCommitment` signature (Thanks to https://github.com/czl1378)
+
 Changes:
 
+- Align Option `.toJSON` output with Substrate input
+- Prepare pre-v13 types for optional injection
+
+
+## 6.8.1 Nov 11, 2021
+
+Upgrade priority: Low. Recommended for chains with non-MultiSignature variants where `paymentInfo` is required.
+
+Changes:
+
+- Adjust `paymentInfo` signatures to cater for non-MultiSignature variants
 - Remove `::generic::` from names & namespaces under metadata v14
+- Add Polkadot 9122 upgrade block
+- Cleanup Polkadot/Kusama/Westend/Rococo known types (>= v14 metadata)
+- Internal `decorateMethod{Promise, Rx}` renamed to `to{Promise, Rx}Method`
+- Add RPC provider-level LRU for historic requests
+- Add optional known runtime version param to internal `rx.queryAt`
 
 
 ## 6.7.2 Nov 9, 2021
