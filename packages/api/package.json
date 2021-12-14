@@ -1,19 +1,19 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/api/issues",
+  "author": "5ire.Org Tech, Jaco Greeff <jacogr@gmail.com>",
+  "bugs": "https://github.com/5ire-org/5ire-js-api/api/issues",
   "contributors": [],
-  "description": "Promise and RxJS wrappers around the Polkadot JS RPC",
+  "description": "Promise and RxJS wrappers around the 5ire JS RPC.",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/polkadot-js/api/tree/master/packages/api#readme",
+  "homepage": "https://github.com/5ire-org/5ire-js-api/api/tree/master/packages/api#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/api",
+  "name": "@f5ire/api",
   "repository": {
     "directory": "packages/api",
     "type": "git",
-    "url": "https://github.com/polkadot-js/api.git"
+    "url": "https://github.com/5ire-org/5ire-js-api/api.git"
   },
   "sideEffects": [
     "./detectPackage.js",

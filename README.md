@@ -19,7 +19,7 @@ Looking for tutorials to get started? Look at [examples](https://polkadot.js.org
 
 The API is split up into a number of internal packages -
 
-- [@polkadot/api](packages/api/) The API library, providing both Promise and RxJS Observable-based interfaces. This is the main user-facing entry point.
+- [@f5ire/api](packages/api/) The API library, providing both Promise and RxJS Observable-based interfaces. This is the main user-facing entry point.
 - [@polkadot/api-derive](packages/api-derive/) Derived results that are injected into the API, allowing for combinations of various query results (only used internally and exposed on the Api instances via `api.derive.*`)
 - [@polkadot/metadata](packages/metadata/) Base extrinsic, storage and constant injectors for injection
 - [@polkadot/rpc-core](packages/rpc-core/) Wrapper around all [JSON-RPC methods](https://polkadot.js.org/docs/substrate/rpc) exposed by a Polkadot network client
