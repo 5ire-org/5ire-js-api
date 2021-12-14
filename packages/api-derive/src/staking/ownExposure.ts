@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { ApiInterfaceRx, QueryableStorageMultiArg } from '@polkadot/api/types';
+import type { ApiInterfaceRx, QueryableStorageMultiArg } from '@f5ire/api/types';
 import type { EraIndex } from '@polkadot/types/interfaces';
 import type { PalletStakingExposure } from '@polkadot/types/lookup';
 import type { DeriveOwnExposure } from '../types';

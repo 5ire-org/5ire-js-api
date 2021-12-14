@@ -132,7 +132,7 @@ export abstract class Decorate<ApiType extends ApiTypes> extends Events {
    * <BR>
    *
    * ```javascript
-   * import Api from '@polkadot/api/promise';
+   * import Api from '@f5ire/api/promise';
    *
    * const api = new Api().isReady();
    *

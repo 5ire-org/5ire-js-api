@@ -33,7 +33,7 @@
     "@babel/core": "^7.16.0",
     "@babel/register": "^7.16.0",
     "@babel/runtime": "^7.16.0",
-    "@polkadot/api": "6.7.3-1",
+    "@f5ire/api": "6.7.3-1",
     "@polkadot/rpc-provider": "6.7.3-1",
     "@polkadot/types": "6.7.3-1",
     "@polkadot/types-support": "6.7.3-1",

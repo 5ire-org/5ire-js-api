@@ -104,7 +104,7 @@ function generateForMeta (registry: Registry, meta: Metadata, dest: string, extr
           types: Object.keys(imports.localTypes[packagePath])
         })),
         {
-          file: '@polkadot/api/types',
+          file: '@f5ire/api/types',
           types: ['ApiTypes', 'SubmittableExtrinsic']
         }
       ]

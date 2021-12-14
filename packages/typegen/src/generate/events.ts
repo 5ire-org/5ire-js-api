@@ -61,7 +61,7 @@ function generateForMeta (meta: Metadata, dest: string, extraTypes: ExtraTypes, 
           types: Object.keys(imports.localTypes[packagePath])
         })),
         {
-          file: '@polkadot/api/types',
+          file: '@f5ire/api/types',
           types: ['ApiTypes']
         }
       ]

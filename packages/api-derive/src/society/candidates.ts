@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { ApiInterfaceRx } from '@polkadot/api/types';
+import type { ApiInterfaceRx } from '@f5ire/api/types';
 import type { Option } from '@polkadot/types';
 import type { BalanceOf } from '@polkadot/types/interfaces';
 import type { PalletSocietyBid, PalletSocietyBidKind } from '@polkadot/types/lookup';

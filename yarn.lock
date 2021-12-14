@@ -1434,7 +1434,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@f5ire/api@workspace:packages/api":
+"@f5ire/api@6.7.3-1, @f5ire/api@workspace:packages/api":
   version: 0.0.0-use.local
   resolution: "@f5ire/api@workspace:packages/api"
   dependencies:
@@ -1863,7 +1863,7 @@ __metadata:
   resolution: "@polkadot/api-contract@workspace:packages/api-contract"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@polkadot/api": 6.7.3-1
+    "@f5ire/api": 6.7.3-1
     "@polkadot/types": 6.7.3-1
     "@polkadot/util": ^7.8.2
     rxjs: ^7.4.0
@@ -1875,7 +1875,7 @@ __metadata:
   resolution: "@polkadot/api-derive@workspace:packages/api-derive"
   dependencies:
     "@babel/runtime": ^7.16.0
-    "@polkadot/api": 6.7.3-1
+    "@f5ire/api": 6.7.3-1
     "@polkadot/keyring": ^7.8.2
     "@polkadot/rpc-core": 6.7.3-1
     "@polkadot/rpc-provider": 6.7.3-1
@@ -1885,25 +1885,6 @@ __metadata:
     rxjs: ^7.4.0
   languageName: unknown
   linkType: soft
-
-"@polkadot/api@npm:6.7.3-1":
-  version: 6.7.3-1
-  resolution: "@polkadot/api@npm:6.7.3-1"
-  dependencies:
-    "@babel/runtime": ^7.16.0
-    "@polkadot/api-derive": 6.7.3-1
-    "@polkadot/keyring": ^7.8.2
-    "@polkadot/rpc-core": 6.7.3-1
-    "@polkadot/rpc-provider": 6.7.3-1
-    "@polkadot/types": 6.7.3-1
-    "@polkadot/types-known": 6.7.3-1
-    "@polkadot/util": ^7.8.2
-    "@polkadot/util-crypto": ^7.8.2
-    eventemitter3: ^4.0.7
-    rxjs: ^7.4.0
-  checksum: 9e1371b67d76a73660ca9751907087edebcfb861535538573f1903017db1e6f4a5bf9d9ec85b85faf8f1e17ad49e07a188af380c312c0c1bb8cdfc29e8e8bf0f
-  languageName: node
-  linkType: hard
 
 "@polkadot/dev@npm:^0.63.27":
   version: 0.63.27
@@ -2066,7 +2047,7 @@ __metadata:
     "@babel/core": ^7.16.0
     "@babel/register": ^7.16.0
     "@babel/runtime": ^7.16.0
-    "@polkadot/api": 6.7.3-1
+    "@f5ire/api": 6.7.3-1
     "@polkadot/rpc-provider": 6.7.3-1
     "@polkadot/types": 6.7.3-1
     "@polkadot/types-support": 6.7.3-1

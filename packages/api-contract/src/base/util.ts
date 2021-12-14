@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { SubmittableResult } from '@polkadot/api';
-import type { SubmittableExtrinsic } from '@polkadot/api/submittable/types';
-import type { ApiTypes } from '@polkadot/api/types';
+import type { SubmittableExtrinsic } from '@f5ire/api/submittable/types';
+import type { ApiTypes } from '@f5ire/api/types';
 import type { BN } from '@polkadot/util';
 import type { AbiConstructor, BlueprintOptions } from '../types';
 import type { BlueprintDeploy, ContractGeneric } from './types';

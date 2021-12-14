@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { SubmittableExtrinsic } from '@polkadot/api/submittable/types';
-import type { ApiTypes, ObsInnerType } from '@polkadot/api/types';
+import type { SubmittableExtrinsic } from '@f5ire/api/submittable/types';
+import type { ApiTypes, ObsInnerType } from '@f5ire/api/types';
 import type { AccountId } from '@polkadot/types/interfaces';
 import type { BN } from '@polkadot/util';
 import type { AbiMessage, BlueprintOptions, ContractCallOutcome, ContractOptions } from '../types';

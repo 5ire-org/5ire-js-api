@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Augment the modules
-import '@polkadot/api/augment';
+import '@f5ire/api/augment';
 
 import type { Observable } from 'rxjs';
 import type { DeriveCustom, ExactDerive } from '@polkadot/api-derive';
