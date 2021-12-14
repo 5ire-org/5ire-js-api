@@ -8,7 +8,7 @@ import type { Codec, InterfaceTypes } from '@polkadot/types/types';
 
 import { firstValueFrom, of } from 'rxjs';
 
-import { ApiPromise } from '@polkadot/api';
+import { ApiPromise } from '@f5ire/api';
 import { DeriveCollectiveProposal } from '@polkadot/api-derive/types';
 import { Proposal } from '@polkadot/types/interfaces';
 

@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ApiPromise } from '@polkadot/api';
+import { ApiPromise } from '@f5ire/api';
 import { SubmittableExtrinsic } from '@f5ire/api/types';
 import { Proposal, ProposalIndex } from '@polkadot/types/interfaces';
 import { Registry } from '@polkadot/types/types';

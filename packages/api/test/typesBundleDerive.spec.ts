@@ -10,7 +10,7 @@ import type { AccountId, AccountIndex, AccountInfo, Address, Balance, BlockNumbe
 import { jest } from '@jest/globals';
 import { combineLatest, map, of, switchMap } from 'rxjs';
 
-import { ApiPromise, WsProvider } from '@polkadot/api';
+import { ApiPromise, WsProvider } from '@f5ire/api';
 import { memo } from '@polkadot/rpc-core';
 
 interface VestingInfo extends Struct {

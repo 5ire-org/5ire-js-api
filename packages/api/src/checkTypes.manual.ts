@@ -8,7 +8,7 @@ import type { StorageKey } from '@polkadot/types';
 import type { AccountId, Balance, DispatchErrorModule, Event, Header, Index } from '@polkadot/types/interfaces';
 import type { AnyTuple, IExtrinsic, IMethod } from '@polkadot/types/types';
 
-import { ApiPromise } from '@polkadot/api';
+import { ApiPromise } from '@f5ire/api';
 import { createTestPairs, TestKeyringMap } from '@polkadot/keyring/testingPairs';
 import { createTypeUnsafe, TypeRegistry } from '@polkadot/types/create';
 

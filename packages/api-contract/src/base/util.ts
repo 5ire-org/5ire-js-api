@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api-contract authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SubmittableResult } from '@polkadot/api';
+import type { SubmittableResult } from '@f5ire/api';
 import type { SubmittableExtrinsic } from '@f5ire/api/submittable/types';
 import type { ApiTypes } from '@f5ire/api/types';
 import type { BN } from '@polkadot/util';

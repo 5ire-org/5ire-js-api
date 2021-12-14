@@ -4,7 +4,7 @@
 import type { AccountId } from '@polkadot/types/interfaces';
 import type { AnyJson } from '@polkadot/types/types';
 
-import { ApiRx, decorateMethodRx } from '@polkadot/api';
+import { ApiRx, decorateMethodRx } from '@f5ire/api';
 
 import { Abi } from '../Abi';
 import { Contract as BaseContract } from '../base';

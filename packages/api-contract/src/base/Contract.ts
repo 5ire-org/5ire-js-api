@@ -11,7 +11,7 @@ import type { ContractCallResult, ContractCallSend, ContractQuery, ContractTx, M
 
 import { map } from 'rxjs';
 
-import { SubmittableResult } from '@polkadot/api';
+import { SubmittableResult } from '@f5ire/api';
 import { ApiBase } from '@f5ire/api/base';
 import { assert, BN, BN_HUNDRED, BN_ONE, BN_ZERO, bnToBn, isFunction, isUndefined, logger } from '@polkadot/util';
 

@@ -8,7 +8,7 @@ import type { AnyJson, ISubmittableResult } from '@polkadot/types/types';
 import type { AbiConstructor, BlueprintOptions } from '../types';
 import type { MapConstructorExec } from './types';
 
-import { SubmittableResult } from '@polkadot/api';
+import { SubmittableResult } from '@f5ire/api';
 import { ApiBase } from '@f5ire/api/base';
 import { BN_ZERO, isUndefined } from '@polkadot/util';
 

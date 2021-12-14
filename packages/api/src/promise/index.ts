@@ -141,7 +141,7 @@ export function decorateMethod<Method extends DecorateFn<ObsInnerType<ReturnType
  * <BR>
  *
  * ```javascript
- * import { ApiPromise, WsProvider } from '@polkadot/api';
+ * import { ApiPromise, WsProvider } from '@f5ire/api';
  *
  * // initialise a provider with a specific endpoint
  * const provider = new WsProvider('wss://example.com:9944')

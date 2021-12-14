@@ -51,7 +51,7 @@ export function decorateMethod <Method extends DecorateFn<Codec>> (method: Metho
  *
  * ```javascript
  * import { combineLatest, pairwise, switchMap } from 'rxjs';
- * import { ApiRx, WsProvider } from '@polkadot/api';
+ * import { ApiRx, WsProvider } from '@f5ire/api';
  *
  *
  * // initialize a provider with a specific endpoint

@@ -6,7 +6,7 @@ import path from 'path';
 import { createBundle } from '@polkadot/dev/config/rollup';
 
 const pkgs = [
-  '@polkadot/api',
+  '@f5ire/api',
   '@polkadot/api-contract',
   '@polkadot/types'
 ];

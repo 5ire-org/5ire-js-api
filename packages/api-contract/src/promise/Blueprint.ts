@@ -4,7 +4,7 @@
 import type { Hash } from '@polkadot/types/interfaces';
 import type { AnyJson } from '@polkadot/types/types';
 
-import { ApiPromise, decorateMethodPromise } from '@polkadot/api';
+import { ApiPromise, decorateMethodPromise } from '@f5ire/api';
 
 import { Abi } from '../Abi';
 import { Blueprint as BaseBlueprint } from '../base';
