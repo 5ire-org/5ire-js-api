@@ -7,7 +7,7 @@
 import process from 'process';
 import yargs from 'yargs';
 
-import { ApiPromise, WsProvider } from '@f5ire/api';
+import { ApiPromise, WsProvider } from '@5ire/api';
 
 /** @internal */
 async function run (ws: string): Promise<void> {

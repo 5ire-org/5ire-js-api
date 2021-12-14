@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { ApiInterfaceRx } from '@f5ire/api/types';
+import type { ApiInterfaceRx } from '@5ire/api/types';
 import type { ParaId } from '@polkadot/types/interfaces';
 import type { DeriveParachain, DeriveParachainInfo } from '../types';
 import type { DidUpdate, ParaInfoResult, PendingSwap, RelayDispatchQueueSize } from './types';

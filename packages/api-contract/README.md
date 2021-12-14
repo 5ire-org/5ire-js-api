@@ -3,7 +3,7 @@
 Interfaces to allow for the encoding and decoding of Substrate contract ABIs.
 
 ```js
-import {ApiPromise, WsProvider } from '@f5ire/api';
+import {ApiPromise, WsProvider } from '@5ire/api';
 import { Abi } from '@polkadot/api-contract';
 
 const wsProvider = new WsProvider(<...Node Url...>);

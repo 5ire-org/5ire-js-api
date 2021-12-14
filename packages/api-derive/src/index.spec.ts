@@ -7,7 +7,7 @@
 
 import { from, Observable } from 'rxjs';
 
-import { ApiRx } from '@f5ire/api/rx';
+import { ApiRx } from '@5ire/api/rx';
 import { MockProvider } from '@polkadot/rpc-provider/mock';
 import { TypeRegistry } from '@polkadot/types/create';
 

@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/api-contract authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ApiPromise } from '@f5ire/api';
+import type { ApiPromise } from '@5ire/api';
 import type { AnyJson } from '@polkadot/types/types';
 
-import { decorateMethodPromise } from '@f5ire/api';
+import { decorateMethodPromise } from '@5ire/api';
 
 import { Abi } from '../Abi';
 import { Code as BaseCode } from '../base';

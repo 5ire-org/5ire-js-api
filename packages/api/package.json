@@ -1,6 +1,6 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/5ire-org/5ire-js-api/api/issues",
+  "bugs": "https://github.com/polkadot-js/api/issues",
   "contributors": [
     "5ire.Org Tech Team"
   ],
@@ -8,14 +8,14 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/5ire-org/5ire-js-api/api/tree/master/packages/api#readme",
+  "homepage": "https://github.com/polkadot-js/api/tree/master/packages/api#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@f5ire/api",
+  "name": "@5ire/api",
   "repository": {
     "directory": "packages/api",
     "type": "git",
-    "url": "https://github.com/5ire-org/5ire-js-api/api.git"
+    "url": "https://github.com/polkadot-js/api.git"
   },
   "sideEffects": [
     "./detectPackage.js",

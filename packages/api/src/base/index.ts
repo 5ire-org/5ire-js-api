@@ -26,7 +26,7 @@ export abstract class ApiBase<ApiType extends ApiTypes> extends Getters<ApiType>
    * <BR>
    *
    * ```javascript
-   * import Api from '@f5ire/api/promise';
+   * import Api from '@5ire/api/promise';
    *
    * const api = new Api().isReady();
    *

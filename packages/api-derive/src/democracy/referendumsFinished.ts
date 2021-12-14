@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { ApiInterfaceRx } from '@f5ire/api/types';
+import type { ApiInterfaceRx } from '@5ire/api/types';
 import type { PalletDemocracyReferendumInfo } from '@polkadot/types/lookup';
 
 import { map, switchMap } from 'rxjs';

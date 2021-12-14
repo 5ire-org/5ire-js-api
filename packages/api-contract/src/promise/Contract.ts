@@ -4,7 +4,7 @@
 import type { AccountId } from '@polkadot/types/interfaces';
 import type { AnyJson } from '@polkadot/types/types';
 
-import { ApiPromise, decorateMethodPromise } from '@f5ire/api';
+import { ApiPromise, decorateMethodPromise } from '@5ire/api';
 
 import { Abi } from '../Abi';
 import { Contract as BaseContract } from '../base';

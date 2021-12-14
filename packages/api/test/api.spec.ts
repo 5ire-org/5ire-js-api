@@ -3,7 +3,7 @@
 
 import { jest } from '@jest/globals';
 
-import { ApiPromise, WsProvider } from '@f5ire/api';
+import { ApiPromise, WsProvider } from '@5ire/api';
 
 describe.skip('misc online tests', (): void => {
   let api: ApiPromise;

@@ -38,7 +38,7 @@ function generateForMeta (meta: Metadata, dest: string, isStrict: boolean): void
       modules,
       types: [
         {
-          file: '@f5ire/api/types',
+          file: '@5ire/api/types',
           types: ['ApiTypes']
         }
       ]

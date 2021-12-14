@@ -24,7 +24,7 @@ const l = logger('api-http');
  * <BR>
  *
  * ```javascript
- * import Api from '@f5ire/api/promise';
+ * import Api from '@5ire/api/promise';
  * import { HttpProvider } from '@polkadot/rpc-provider';
  *
  * const provider = new HttpProvider('http://127.0.0.1:9933');

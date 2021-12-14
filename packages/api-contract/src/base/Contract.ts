@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api-contract authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SubmittableExtrinsic } from '@f5ire/api/submittable/types';
-import type { ApiTypes, DecorateMethod } from '@f5ire/api/types';
+import type { SubmittableExtrinsic } from '@5ire/api/submittable/types';
+import type { ApiTypes, DecorateMethod } from '@5ire/api/types';
 import type { Bytes } from '@polkadot/types';
 import type { AccountId, EventRecord, Weight } from '@polkadot/types/interfaces';
 import type { AnyJson, ISubmittableResult } from '@polkadot/types/types';
@@ -11,8 +11,8 @@ import type { ContractCallResult, ContractCallSend, ContractQuery, ContractTx, M
 
 import { map } from 'rxjs';
 
-import { SubmittableResult } from '@f5ire/api';
-import { ApiBase } from '@f5ire/api/base';
+import { SubmittableResult } from '@5ire/api';
+import { ApiBase } from '@5ire/api/base';
 import { assert, BN, BN_HUNDRED, BN_ONE, BN_ZERO, bnToBn, isFunction, isUndefined, logger } from '@polkadot/util';
 
 import { Abi } from '../Abi';

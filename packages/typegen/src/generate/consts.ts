@@ -69,7 +69,7 @@ function generateForMeta (meta: Metadata, dest: string, extraTypes: ExtraTypes, 
           types: Object.keys(imports.localTypes[packagePath])
         })),
         {
-          file: '@f5ire/api/types',
+          file: '@5ire/api/types',
           types: ['ApiTypes']
         }
       ]
