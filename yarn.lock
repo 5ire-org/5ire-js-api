@@ -5,7 +5,7 @@ __metadata:
   version: 4
   cacheKey: 8
 
-"@5ire/api@6.7.3-1, @5ire/api@workspace:packages/api":
+"@5ire/api@0.2.0, @5ire/api@workspace:packages/api":
   version: 0.0.0-use.local
   resolution: "@5ire/api@workspace:packages/api"
   dependencies:
@@ -23,9 +23,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@5ire/dev@npm:0.1.3":
-  version: 0.1.3
-  resolution: "@5ire/dev@npm:0.1.3"
+"@5ire/dev@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@5ire/dev@npm:0.1.4"
   dependencies:
     "@babel/cli": ^7.16.0
     "@babel/core": ^7.16.0
@@ -110,7 +110,7 @@ __metadata:
     5ire-exec-rollup: scripts/5ire-exec-rollup.mjs
     5ire-exec-tsc: scripts/5ire-exec-tsc.mjs
     5ire-exec-webpack: scripts/5ire-exec-webpack.mjs
-  checksum: 24194abe3bfeaff0cc68c1d87e1aeb0a8a0ec1b886a6ce242a9fd4b19bbdaa38e2a3f3447c5c094f70fcadf6ab8e8ec5dc527a23be743150a682850baae88b6b
+  checksum: 3469120edefbc66497bc6680dcf8e3f94d4253523c39af442871008b9d361b8ff8e76d8644454d53d93e7fbb5c5eba9dda6756ba157e9875af7e46397a5717e6
   languageName: node
   linkType: hard
 
@@ -2178,7 +2178,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/api-contract@workspace:packages/api-contract"
   dependencies:
-    "@5ire/api": 6.7.3-1
+    "@5ire/api": 0.2.0
     "@babel/runtime": ^7.16.0
     "@polkadot/types": 6.7.3-1
     "@polkadot/util": ^7.8.2
@@ -2190,7 +2190,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/api-derive@workspace:packages/api-derive"
   dependencies:
-    "@5ire/api": 6.7.3-1
+    "@5ire/api": 0.2.0
     "@babel/runtime": ^7.16.0
     "@polkadot/keyring": ^7.8.2
     "@polkadot/rpc-core": 6.7.3-1
@@ -2269,7 +2269,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@polkadot/typegen@workspace:packages/typegen"
   dependencies:
-    "@5ire/api": 6.7.3-1
+    "@5ire/api": 0.2.0
     "@babel/core": ^7.16.0
     "@babel/register": ^7.16.0
     "@babel/runtime": ^7.16.0
@@ -9328,7 +9328,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@5ire/dev": 0.1.3
+    "@5ire/dev": 0.1.4
     "@babel/core": ^7.16.0
     "@babel/register": ^7.16.0
     "@babel/runtime": ^7.16.0

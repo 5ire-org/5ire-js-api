@@ -1,19 +1,19 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/api/issues",
+  "bugs": "https://github.com/5ire-org/5ire-js-api/issues",
   "contributors": [],
   "description": "Known type definitions",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/polkadot-js/api/tree/master/packages/types-known#readme",
+  "homepage": "https://github.com/5ire-org/5ire-js-api/tree/master/packages/types-known#readme",
   "license": "Apache-2.0",
   "maintainers": [],
   "name": "@polkadot/types-known",
   "repository": {
     "directory": "packages/types-known",
     "type": "git",
-    "url": "https://github.com/polkadot-js/api.git"
+    "url": "https://github.com/5ire-org/5ire-js-api.git"
   },
   "sideEffects": [
     "./detectPackage.js",

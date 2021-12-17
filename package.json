@@ -1,17 +1,17 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/api/issues",
-  "homepage": "https://github.com/polkadot-js/api#readme",
+  "author": "5ire <contact@5ire.org>",
+  "bugs": "https://github.com/5ire-org/5ire-js-api/issues",
+  "homepage": "https://github.com/5ire-org/5ire-js-api#readme",
   "license": "Apache-2",
   "packageManager": "yarn@3.0.1",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/polkadot-js/api.git"
+    "url": "https://github.com/5ire-org/5ire-js-api.git"
   },
   "sideEffects": false,
   "type": "commonjs",
-  "version": "6.7.3-1",
+  "version": "0.2.0",
   "workspaces": [
     "packages/*"
   ],
@@ -31,7 +31,7 @@
     "test:watch": "5ire-dev-run-test --watch"
   },
   "devDependencies": {
-    "@5ire/dev": "0.1.3",
+    "@5ire/dev": "0.1.4",
     "@babel/core": "^7.16.0",
     "@babel/register": "^7.16.0",
     "@babel/runtime": "^7.16.0",
