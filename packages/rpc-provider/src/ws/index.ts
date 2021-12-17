@@ -65,7 +65,7 @@ function eraseRecord<T> (record: Record<string, T>, cb?: (item: T) => void): voi
  * <BR>
  *
  * ```javascript
- * import Api from '@polkadot/api/promise';
+ * import Api from '@5ire/api/promise';
  * import { WsProvider } from '@polkadot/rpc-provider/ws';
  *
  * const provider = new WsProvider('ws://127.0.0.1:9944');

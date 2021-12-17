@@ -15,7 +15,7 @@ export function decorateMethod <Method extends DecorateFn<Codec>> (method: Metho
 }
 
 /**
- * # @polkadot/api/rx
+ * # @5ire/api/rx
  *
  *  ## Overview
  *
@@ -34,7 +34,7 @@ export function decorateMethod <Method extends DecorateFn<Codec>> (method: Metho
  * <BR>
  *
  * ```javascript
- * import ApiRx from '@polkadot/api/rx';
+ * import ApiRx from '@5ire/api/rx';
  *
  * // initialize via Promise & static create
  * const api = await ApiRx.create().toPromise();
@@ -51,7 +51,7 @@ export function decorateMethod <Method extends DecorateFn<Codec>> (method: Metho
  *
  * ```javascript
  * import { combineLatest, pairwise, switchMap } from 'rxjs';
- * import { ApiRx, WsProvider } from '@polkadot/api';
+ * import { ApiRx, WsProvider } from '@5ire/api';
  *
  *
  * // initialize a provider with a specific endpoint
@@ -80,7 +80,7 @@ export function decorateMethod <Method extends DecorateFn<Codec>> (method: Metho
  *
  * ```javascript
  * import { first, switchMap } from 'rxjs';
- * import ApiRx from '@polkadot/api/rx';
+ * import ApiRx from '@5ire/api/rx';
  *
  * // import the test keyring (already has dev keys for Alice, Bob, Charlie, Eve & Ferdie)
  * import testingPairs from '@polkadot/keyring/testingPairs';
@@ -124,7 +124,7 @@ export class ApiRx extends ApiBase<'rxjs'> {
    *
    * ```javascript
    * import { switchMap } from 'rxjs';
-   * import Api from '@polkadot/api/rx';
+   * import Api from '@5ire/api/rx';
    *
    * Api.create()
    *   .pipe(
@@ -148,7 +148,7 @@ export class ApiRx extends ApiBase<'rxjs'> {
    *
    * ```javascript
    * import { switchMap } from 'rxjs';
-   * import Api from '@polkadot/api/rx';
+   * import Api from '@5ire/api/rx';
    *
    * new Api().isReady
    *   .pipe(

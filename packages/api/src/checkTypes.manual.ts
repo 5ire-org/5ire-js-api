@@ -8,7 +8,7 @@ import type { StorageKey } from '@polkadot/types';
 import type { AccountId, Balance, DispatchErrorModule, Event, Header, Index } from '@polkadot/types/interfaces';
 import type { AnyTuple, IExtrinsic, IMethod } from '@polkadot/types/types';
 
-import { ApiPromise } from '@polkadot/api';
+import { ApiPromise } from '@5ire/api';
 import { createTestPairs, TestKeyringMap } from '@polkadot/keyring/testingPairs';
 import { createTypeUnsafe, TypeRegistry } from '@polkadot/types/create';
 
@@ -200,7 +200,7 @@ function types (api: ApiPromise): void {
 
 async function tx (api: ApiPromise, pairs: TestKeyringMap): Promise<void> {
   // transfer, also allows for bigint inputs here
-  const transfer = api.tx.balances.transfer(pairs.bob.address, 123456789n);
+  const transfer = api.tx.balances.transfer(pairs.bob.address, BigInt(123456789));
 
   console.log('transfer casted', transfer as IMethod<AnyTuple>, transfer as IExtrinsic<AnyTuple>);
 

@@ -1,19 +1,19 @@
 {
   "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/api/issues",
+  "bugs": "https://github.com/5ire-org/5ire-js-api/issues",
   "contributors": [],
   "description": "Type generation scripts",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/polkadot-js/api/tree/master/packages/typegen#readme",
+  "homepage": "https://github.com/5ire-org/5ire-js-api/tree/master/packages/typegen#readme",
   "license": "Apache-2.0",
   "maintainers": [],
   "name": "@polkadot/typegen",
   "repository": {
     "directory": "packages/typegen",
     "type": "git",
-    "url": "https://github.com/polkadot-js/api.git"
+    "url": "https://github.com/5ire-org/5ire-js-api.git"
   },
   "sideEffects": [
     "./detectPackage.js",
@@ -30,10 +30,10 @@
     "polkadot-types-internal-metadata": "./scripts/polkadot-types-internal-metadata.cjs"
   },
   "dependencies": {
+    "@5ire/api": "0.2.0",
     "@babel/core": "^7.16.0",
     "@babel/register": "^7.16.0",
     "@babel/runtime": "^7.16.0",
-    "@polkadot/api": "6.7.3-1",
     "@polkadot/rpc-provider": "6.7.3-1",
     "@polkadot/types": "6.7.3-1",
     "@polkadot/types-support": "6.7.3-1",

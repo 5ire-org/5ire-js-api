@@ -3,27 +3,27 @@
 
 import path from 'path';
 
-import { createBundle } from '@polkadot/dev/config/rollup';
+import { createBundle } from '@5ire/dev/config/rollup';
 
 const pkgs = [
-  '@polkadot/api',
-  '@polkadot/api-contract',
-  '@polkadot/types'
+  'api',
+  'api-contract',
+  'types'
 ];
 
 const external = [
   ...pkgs,
-  '@polkadot/keyring',
-  '@polkadot/util',
-  '@polkadot/util-crypto'
+  'keyring',
+  'util',
+  'util-crypto'
 ];
 
 const entries = ['api-derive', 'rpc-core', 'rpc-provider', 'types-known'].reduce((all, p) => ({
   ...all,
-  [`@polkadot/${p}`]: path.resolve(process.cwd(), `packages/${p}/build/bundle.js`)
+  [`${p}`]: path.resolve(process.cwd(), `packages/${p}/build/bundle.js`)
 }), {
   // re-exported in @polkadot/util-crypto, map directly
-  '@polkadot/networks': '@polkadot/util-crypto'
+  'networks': 'util-crypto'
 });
 
 const overrides = {};

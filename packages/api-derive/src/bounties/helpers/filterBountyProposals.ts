@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ApiInterfaceRx } from '@polkadot/api/types';
+import { ApiInterfaceRx } from '@5ire/api/types';
 import { DeriveCollectiveProposal } from '@polkadot/api-derive/types';
 
 export function filterBountiesProposals (api: ApiInterfaceRx, allProposals: DeriveCollectiveProposal[]): DeriveCollectiveProposal[] {

@@ -65,7 +65,7 @@ const blockNumber = createType(api.registry, 'BlockNumber', 12345);
 In some cases, you would want to explicitly pass a `Registry` interface to the API, instead of relying on it explicitly. This is generally applicable in the cases where you want to use the `createType` independently from the API -
 
 ```js
-import { ApiPromise } from '@polkadot/api';
+import { ApiPromise } from '@5ire/api';
 import { TypeRegistry, createType } from '@polkadot/types';
 
 ...

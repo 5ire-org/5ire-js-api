@@ -4,7 +4,7 @@
 import type { Hash } from '@polkadot/types/interfaces';
 import type { AnyJson } from '@polkadot/types/types';
 
-import { ApiRx, decorateMethodRx } from '@polkadot/api';
+import { ApiRx, decorateMethodRx } from '@5ire/api';
 
 import { Abi } from '../Abi';
 import { Blueprint as BaseBlueprint } from '../base';

@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { ApiPromise, WsProvider } from '@polkadot/api';
+import { ApiPromise, WsProvider } from '@5ire/api';
 import { Metadata, TypeRegistry } from '@polkadot/types';
 import metaStatic from '@polkadot/types-support/metadata/static-substrate';
 

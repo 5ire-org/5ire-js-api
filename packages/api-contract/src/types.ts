@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api-contract authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ApiBase } from '@polkadot/api/base';
-import type { ApiTypes } from '@polkadot/api/types';
+import type { ApiBase } from '@5ire/api/base';
+import type { ApiTypes } from '@5ire/api/types';
 import type { Text, u64 } from '@polkadot/types';
 import type { ContractExecResultResult, ContractSelector } from '@polkadot/types/interfaces';
 import type { Codec, TypeDef } from '@polkadot/types/types';

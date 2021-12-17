@@ -6,7 +6,7 @@ import type { AnyJson } from '@polkadot/types/types';
 import fs from 'fs';
 import path from 'path';
 
-import { decorateMethodPromise } from '@polkadot/api';
+import { decorateMethodPromise } from '@5ire/api';
 
 import v0contractFlipper from '../../test/contracts/ink/v0/flipper.contract.json';
 import v0abiFlipper from '../../test/contracts/ink/v0/flipper.json';

@@ -107,7 +107,7 @@ export function decorateMethod<Method extends DecorateFn<ObsInnerType<ReturnType
 }
 
 /**
- * # @polkadot/api/promise
+ * # @5ire/api/promise
  *
  * ## Overview
  *
@@ -125,7 +125,7 @@ export function decorateMethod<Method extends DecorateFn<ObsInnerType<ReturnType
  * <BR>
  *
  * ```javascript
- * import ApiPromise from '@polkadot/api/promise';
+ * import ApiPromise from '@5ire/api/promise';
  *
  * // initialise via static create
  * const api = await ApiPromise.create();
@@ -141,7 +141,7 @@ export function decorateMethod<Method extends DecorateFn<ObsInnerType<ReturnType
  * <BR>
  *
  * ```javascript
- * import { ApiPromise, WsProvider } from '@polkadot/api';
+ * import { ApiPromise, WsProvider } from '@5ire/api';
  *
  * // initialise a provider with a specific endpoint
  * const provider = new WsProvider('wss://example.com:9944')
@@ -169,7 +169,7 @@ export function decorateMethod<Method extends DecorateFn<ObsInnerType<ReturnType
  * <BR>
  *
  * ```javascript
- * import ApiPromise from '@polkadot/api/promise';
+ * import ApiPromise from '@5ire/api/promise';
  *
  * ApiPromise.create().then((api) => {
  *   const [nonce] = await api.query.system.account(keyring.alice.address);
@@ -202,7 +202,7 @@ export class ApiPromise extends ApiBase<'promise'> {
    * <BR>
    *
    * ```javascript
-   * import Api from '@polkadot/api/promise';
+   * import Api from '@5ire/api/promise';
    *
    * Api.create().then(async (api) => {
    *   const timestamp = await api.query.timestamp.now();
@@ -235,7 +235,7 @@ export class ApiPromise extends ApiBase<'promise'> {
    * <BR>
    *
    * ```javascript
-   * import Api from '@polkadot/api/promise';
+   * import Api from '@5ire/api/promise';
    *
    * new Api().isReady.then((api) => {
    *   api.rpc.subscribeNewHeads((header) => {

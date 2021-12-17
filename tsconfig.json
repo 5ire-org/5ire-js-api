@@ -1,5 +1,5 @@
 {
-  "extends": "@polkadot/dev/config/tsconfig.json",
+  "extends": "@5ire/dev/config/tsconfig.json",
   "exclude": [
     "build/**/*",
     "**/build/**/*",
@@ -9,8 +9,8 @@
     "baseUrl": ".",
     "paths":
     {
-      "@polkadot/api": ["packages/api/src"],
-      "@polkadot/api/*": ["packages/api/src/*"],
+      "@5ire/api": ["packages/api/src"],
+      "@5ire/api/*": ["packages/api/src/*"],
       "@polkadot/api-contract": ["packages/api-contract/src"],
       "@polkadot/api-contract/*": ["packages/api-contract/src/*"],
       "@polkadot/api-derive": ["packages/api-derive/src"],

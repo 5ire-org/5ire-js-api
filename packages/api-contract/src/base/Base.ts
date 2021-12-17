@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ApiTypes, DecorateMethod } from '@polkadot/api/types';
+import type { ApiTypes, DecorateMethod } from '@5ire/api/types';
 import type { AnyJson, Registry } from '@polkadot/types/types';
 
-import { ApiBase } from '@polkadot/api/base';
+import { ApiBase } from '@5ire/api/base';
 import { assert, isFunction } from '@polkadot/util';
 
 import { Abi } from '../Abi';

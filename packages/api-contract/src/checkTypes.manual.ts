@@ -5,7 +5,7 @@
 
 import type { AnyJson } from '@polkadot/types/types';
 
-import { ApiPromise } from '@polkadot/api';
+import { ApiPromise } from '@5ire/api';
 import { createTestPairs, TestKeyringMap } from '@polkadot/keyring/testingPairs';
 
 import abiIncrementer from '../test/contracts/ink/incrementer.json';

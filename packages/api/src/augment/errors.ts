@@ -1,9 +1,9 @@
 // Auto-generated via `yarn polkadot-types-from-chain`, do not edit
 /* eslint-disable */
 
-import type { ApiTypes } from '@polkadot/api/types';
+import type { ApiTypes } from '@5ire/api/types';
 
-declare module '@polkadot/api/types/errors' {
+declare module '@5ire/api/types/errors' {
   export interface AugmentedErrors<ApiType> {
     assets: {
       /**
