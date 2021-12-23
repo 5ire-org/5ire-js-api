@@ -5,7 +5,7 @@ import type { ApiTypes, DecorateMethod } from '@5ire/api/types';
 import type { AnyJson, Registry } from '@polkadot/types/types';
 
 import { ApiBase } from '@5ire/api/base';
-import { assert, isFunction } from '@polkadot/util';
+import { assert, isFunction } from '@5ire/util';
 
 import { Abi } from '../Abi';
 

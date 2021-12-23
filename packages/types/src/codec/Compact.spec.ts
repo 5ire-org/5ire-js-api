@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BN } from '@polkadot/util';
+import { BN } from '@5ire/util';
 
 import { TypeRegistry } from '../create';
 import { U32 } from '../primitive';

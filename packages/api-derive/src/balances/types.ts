@@ -3,7 +3,7 @@
 
 import type { AccountId, Balance, BalanceLockTo212, Index } from '@polkadot/types/interfaces';
 import type { PalletBalancesBalanceLock } from '@polkadot/types/lookup';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 
 export interface DeriveBalancesAccountData {
   freeBalance: Balance;

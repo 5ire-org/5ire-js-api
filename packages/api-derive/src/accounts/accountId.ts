@@ -7,7 +7,7 @@ import type { AccountId, AccountIndex, Address } from '@polkadot/types/interface
 
 import { map, of } from 'rxjs';
 
-import { assertReturn, isU8a } from '@polkadot/util';
+import { assertReturn, isU8a } from '@5ire/util';
 import { decodeAddress } from '@polkadot/util-crypto';
 
 import { memo } from '../util';

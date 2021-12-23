@@ -8,7 +8,7 @@ import type { PalletDemocracyReferendumInfo, PalletDemocracyReferendumStatus, Pa
 import type { ITuple } from '@polkadot/types/types';
 import type { DeriveProposalImage, DeriveReferendum, DeriveReferendumVote, DeriveReferendumVotes, DeriveReferendumVoteState } from '../types';
 
-import { BN, bnSqrt } from '@polkadot/util';
+import { BN, bnSqrt } from '@5ire/util';
 
 type PreimageInfo = [Bytes, AccountId, Balance, BlockNumber];
 type OldPreimage = ITuple<PreimageInfo>;

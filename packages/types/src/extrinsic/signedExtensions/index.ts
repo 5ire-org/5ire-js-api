@@ -3,7 +3,7 @@
 
 import type { ExtDef, ExtInfo, ExtTypes } from './types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import { polkadot } from './polkadot';
 import { shell } from './shell';

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { CreateOptions, TypeDef } from '../create/types';
 import type { ExtDef } from '../extrinsic/signedExtensions/types';
 import type { MetadataLatest } from '../interfaces/metadata';

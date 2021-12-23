@@ -5,7 +5,7 @@ import type { SiLookupTypeId } from '@polkadot/types/interfaces';
 import type { StorageEntry } from '@polkadot/types/primitive/types';
 import type { Registry } from '@polkadot/types/types';
 
-import { assert, isUndefined } from '@polkadot/util';
+import { assert, isUndefined } from '@5ire/util';
 
 function sig ({ lookup }: Registry, { method, section }: StorageEntry, args: SiLookupTypeId[]): string {
   return `${section}.${method}(${args.map((a) => lookup.getTypeDef(a).type).join(', ')})`;

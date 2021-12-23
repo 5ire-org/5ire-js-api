@@ -5,7 +5,7 @@ import type { MetadataLatest, PalletConstantMetadataLatest } from '../../../inte
 import type { Registry } from '../../../types';
 import type { ConstantCodec, Constants } from '../types';
 
-import { hexToU8a, lazyMethod, lazyMethods, stringCamelCase } from '@polkadot/util';
+import { hexToU8a, lazyMethod, lazyMethods, stringCamelCase } from '@5ire/util';
 
 import { objectNameToCamel } from '../util';
 

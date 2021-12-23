@@ -8,7 +8,7 @@ import type { AccountId } from '@polkadot/types/interfaces';
 
 import { map, of } from 'rxjs';
 
-import { isFunction } from '@polkadot/util';
+import { isFunction } from '@5ire/util';
 
 import { memo } from '../util';
 import { getInstance } from './getInstance';

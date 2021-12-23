@@ -3,10 +3,10 @@
 
 import type { SubmittableResult } from '@5ire/api';
 import type { EventRecord } from '@polkadot/types/interfaces';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { BlueprintOptions, ContractOptions } from './types';
 
-import { isBigInt, isBn, isNumber, isString } from '@polkadot/util';
+import { isBigInt, isBn, isNumber, isString } from '@5ire/util';
 
 type ContractEvents = 'CodeStored' | 'ContractEmitted' | 'ContractExecution' | 'Instantiated';
 

@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { lazyMethod, logger, objectClear } from '@polkadot/util';
+import { lazyMethod, logger, objectClear } from '@5ire/util';
 
 type Sections <T> = Record<string, Methods<T>>;
 

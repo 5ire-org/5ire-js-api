@@ -3,7 +3,7 @@
 
 import { packageInfo as providerInfo } from '@polkadot/rpc-provider/packageInfo';
 import { packageInfo as typesInfo } from '@polkadot/types/packageInfo';
-import { detectPackage } from '@polkadot/util';
+import { detectPackage } from '@5ire/util';
 
 import { packageInfo } from './packageInfo';
 

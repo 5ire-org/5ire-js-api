@@ -4,7 +4,7 @@
 import type { SignerPayloadRawBase } from '@polkadot/types/types';
 import type { ApiOptions, ApiTypes, DecorateMethod, Signer } from '../types';
 
-import { assert, isString, objectSpread, u8aToHex, u8aToU8a } from '@polkadot/util';
+import { assert, isString, objectSpread, u8aToHex, u8aToU8a } from '@5ire/util';
 
 import { Getters } from './Getters';
 

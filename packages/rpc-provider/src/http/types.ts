@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/rpc-provider authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Logger } from '@polkadot/util/types';
+import type { Logger } from '@5ire/util/types';
 import type { RpcCoder } from '../coder';
 
 export interface HttpState {

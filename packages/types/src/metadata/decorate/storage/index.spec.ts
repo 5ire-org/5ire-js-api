@@ -3,7 +3,7 @@
 
 import { createTestPairs } from '@polkadot/keyring/testingPairs';
 import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
-import { u8aToHex } from '@polkadot/util';
+import { u8aToHex } from '@5ire/util';
 import { xxhashAsHex } from '@polkadot/util-crypto';
 
 import { TypeRegistry } from '../../../create';

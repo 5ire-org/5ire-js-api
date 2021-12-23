@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { isUndefined } from '@polkadot/util';
+import { isUndefined } from '@5ire/util';
 
 import { hasEq } from './util';
 

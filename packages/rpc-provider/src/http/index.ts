@@ -3,7 +3,7 @@
 
 import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback, ProviderInterfaceEmitCb, ProviderInterfaceEmitted } from '../types';
 
-import { assert, logger } from '@polkadot/util';
+import { assert, logger } from '@5ire/util';
 import { fetch } from '@polkadot/x-fetch';
 
 import { RpcCoder } from '../coder';

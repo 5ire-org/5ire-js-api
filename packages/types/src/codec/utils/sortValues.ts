@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { Codec } from '../../types';
 import type { Enum } from '../Enum';
 
-import { bnToBn, isBigInt, isBn, isFunction, isNumber, stringify } from '@polkadot/util';
+import { bnToBn, isBigInt, isBn, isFunction, isNumber, stringify } from '@5ire/util';
 
 type SortArg = Codec | Codec[] | number[] | BN | bigint | number | Uint8Array;
 

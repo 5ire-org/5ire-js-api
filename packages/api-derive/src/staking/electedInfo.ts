@@ -8,7 +8,7 @@ import type { DeriveStakingElected, StakingQueryFlags } from '../types';
 
 import { map, switchMap } from 'rxjs';
 
-import { arrayFlatten } from '@polkadot/util';
+import { arrayFlatten } from '@5ire/util';
 
 import { memo } from '../util';
 

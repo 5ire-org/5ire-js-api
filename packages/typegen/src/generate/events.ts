@@ -8,7 +8,7 @@ import Handlebars from 'handlebars';
 
 import lookupDefinitions from '@polkadot/types/augment/lookup/definitions';
 import * as defaultDefs from '@polkadot/types/interfaces/definitions';
-import { stringCamelCase } from '@polkadot/util';
+import { stringCamelCase } from '@5ire/util';
 
 import { compareName, createImports, formatType, initMeta, readTemplate, setImports, writeFile } from '../util';
 

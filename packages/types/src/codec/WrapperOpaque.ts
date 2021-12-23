@@ -3,7 +3,7 @@
 
 import type { Codec, Constructor, Registry } from '../types';
 
-import { compactAddLength, compactStripLength, isU8a } from '@polkadot/util';
+import { compactAddLength, compactStripLength, isU8a } from '@5ire/util';
 
 import { Base } from './Base';
 import { typeToConstructor } from './utils';

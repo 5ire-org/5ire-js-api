@@ -10,7 +10,7 @@ import type { Collective } from './types';
 
 import { catchError, combineLatest, map, of, switchMap } from 'rxjs';
 
-import { isFunction } from '@polkadot/util';
+import { isFunction } from '@5ire/util';
 
 import { memo } from '../util';
 import { getInstance } from './getInstance';

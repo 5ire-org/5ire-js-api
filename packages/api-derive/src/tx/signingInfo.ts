@@ -8,7 +8,7 @@ import type { AnyNumber, Codec, IExtrinsicEra } from '@polkadot/types/types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';
 
-import { isNumber, isUndefined } from '@polkadot/util';
+import { isNumber, isUndefined } from '@5ire/util';
 
 import { FALLBACK_MAX_HASH_COUNT, FALLBACK_PERIOD, MAX_FINALITY_LAG, MORTAL_PERIOD } from './constants';
 

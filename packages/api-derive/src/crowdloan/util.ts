@@ -3,7 +3,7 @@
 
 import type { Vec } from '@polkadot/types';
 import type { EventRecord } from '@polkadot/types/interfaces';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 
 interface Changes {
   added: string[];

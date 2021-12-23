@@ -6,7 +6,7 @@ import type { Text } from '@polkadot/types';
 import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
 import type { ChainProperties, Hash, RuntimeVersion, RuntimeVersionPartial } from '@polkadot/types/interfaces';
 import type { Registry } from '@polkadot/types/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { ApiBase, ApiDecoration, ApiOptions, ApiTypes, DecorateMethod } from '../types';
 import type { VersionedRegistry } from './types';
 
@@ -14,7 +14,7 @@ import { firstValueFrom, map, of, switchMap } from 'rxjs';
 
 import { Metadata, TypeRegistry } from '@polkadot/types';
 import { getSpecAlias, getSpecExtensions, getSpecHasher, getSpecRpc, getSpecTypes, getUpgradeVersion } from '@polkadot/types-known';
-import { assert, BN_ZERO, isUndefined, logger, objectSpread, stringify, u8aEq, u8aToHex, u8aToU8a } from '@polkadot/util';
+import { assert, BN_ZERO, isUndefined, logger, objectSpread, stringify, u8aEq, u8aToHex, u8aToU8a } from '@5ire/util';
 import { cryptoWaitReady } from '@polkadot/util-crypto';
 
 import { detectedCapabilities } from './capabilities';

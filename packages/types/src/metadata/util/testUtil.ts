@@ -7,7 +7,7 @@ import type { Check } from './types';
 import fs from 'fs';
 import path from 'path';
 
-import { assert, hexToU8a, stringCamelCase, stringify, u8aToHex } from '@polkadot/util';
+import { assert, hexToU8a, stringCamelCase, stringify, u8aToHex } from '@5ire/util';
 
 import { TypeRegistry } from '../../create';
 import { unwrapStorageSi, unwrapStorageType } from '../../primitive/StorageKey';

@@ -1,13 +1,13 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@5ire/util/types';
 import type { EcdsaSignature, Ed25519Signature, ExtrinsicEra, ExtrinsicSignature, Sr25519Signature } from '../../interfaces/extrinsics';
 import type { Address, Balance, Call, Index } from '../../interfaces/runtime';
 import type { ExtrinsicPayloadValue, IExtrinsicSignature, IKeyringPair, Registry, SignatureOptions } from '../../types';
 import type { ExtrinsicSignatureOptions } from '../types';
 
-import { assert, isU8a, isUndefined, objectProperties, objectSpread, stringify, u8aConcat, u8aToHex } from '@polkadot/util';
+import { assert, isU8a, isUndefined, objectProperties, objectSpread, stringify, u8aConcat, u8aToHex } from '@5ire/util';
 
 import { Compact } from '../../codec/Compact';
 import { Enum } from '../../codec/Enum';

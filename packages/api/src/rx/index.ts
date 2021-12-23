@@ -6,7 +6,7 @@ import type { ApiOptions, DecorateFn } from '../types';
 
 import { from, Observable } from 'rxjs';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import { ApiBase } from '../base';
 

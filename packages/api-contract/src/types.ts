@@ -6,7 +6,7 @@ import type { ApiTypes } from '@5ire/api/types';
 import type { Text, u64 } from '@polkadot/types';
 import type { ContractExecResultResult, ContractSelector } from '@polkadot/types/interfaces';
 import type { Codec, TypeDef } from '@polkadot/types/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { Abi } from '.';
 
 export interface ContractBase<ApiType extends ApiTypes> {

@@ -13,7 +13,7 @@ import { map } from 'rxjs';
 
 import { SubmittableResult } from '@5ire/api';
 import { ApiBase } from '@5ire/api/base';
-import { assert, BN, BN_HUNDRED, BN_ONE, BN_ZERO, bnToBn, isFunction, isUndefined, logger } from '@polkadot/util';
+import { assert, BN, BN_HUNDRED, BN_ONE, BN_ZERO, bnToBn, isFunction, isUndefined, logger } from '@5ire/util';
 
 import { Abi } from '../Abi';
 import { applyOnEvent, extractOptions, isOptions } from '../util';

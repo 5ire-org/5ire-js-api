@@ -3,7 +3,7 @@
 
 import type { AnyNumber, Registry } from '../types';
 
-import { assert } from '@polkadot/util';
+import { assert } from '@5ire/util';
 
 import { U32 } from '../primitive';
 

@@ -5,9 +5,9 @@ import type { Text } from '@polkadot/types';
 import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
 import type { Hash } from '@polkadot/types/interfaces';
 import type { ChainUpgradeVersion, CodecHasher, DefinitionRpc, DefinitionRpcSub, OverrideModuleType, OverrideVersionedType, Registry, RegistryTypes } from '@polkadot/types/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 
-import { bnToBn, isNull, isUndefined, objectSpread } from '@polkadot/util';
+import { bnToBn, isNull, isUndefined, objectSpread } from '@5ire/util';
 
 import typesChain from './chain';
 import typesModules from './modules';

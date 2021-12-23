@@ -10,7 +10,7 @@ import type { MapConstructorExec } from './types';
 
 import { SubmittableResult } from '@5ire/api';
 import { ApiBase } from '@5ire/api/base';
-import { BN_ZERO, isUndefined } from '@polkadot/util';
+import { BN_ZERO, isUndefined } from '@5ire/util';
 
 import { Abi } from '../Abi';
 import { applyOnEvent } from '../util';

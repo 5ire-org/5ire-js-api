@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { u8aToHex } from '@polkadot/util';
+import { u8aToHex } from '@5ire/util';
 
 import { TypeRegistry } from '../create';
 import { GenericExtrinsicPayload as ExtrinsicPayload } from '.';

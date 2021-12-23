@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { packageInfo as knownInfo } from '@polkadot/types-known/packageInfo';
-import { detectPackage } from '@polkadot/util';
+import { detectPackage } from '@5ire/util';
 
 import { packageInfo } from './packageInfo';
 

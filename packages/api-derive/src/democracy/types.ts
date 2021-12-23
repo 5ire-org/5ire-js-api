@@ -4,7 +4,7 @@
 import type { Vec } from '@polkadot/types';
 import type { AccountId, Balance, BlockNumber, Hash, PropIndex, Proposal, ReferendumIndex, ReferendumInfoTo239, Vote } from '@polkadot/types/interfaces';
 import type { PalletDemocracyReferendumStatus, PalletDemocracyVoteThreshold } from '@polkadot/types/lookup';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 
 export interface DeriveDemocracyLock {
   balance: Balance;

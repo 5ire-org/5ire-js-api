@@ -8,7 +8,7 @@ import type { Metadata } from '@polkadot/types/metadata';
 import type { CallFunction, RegistryError } from '@polkadot/types/types';
 import type { ApiDecoration, ApiInterfaceRx, ApiTypes, DecoratedErrors, DecoratedEvents, DecoratedRpc, QueryableConsts, QueryableStorage, QueryableStorageMulti, SubmittableExtrinsics } from '../types';
 
-import { assertReturn } from '@polkadot/util';
+import { assertReturn } from '@5ire/util';
 
 import { packageInfo } from '../packageInfo';
 import { findCall, findError } from './find';

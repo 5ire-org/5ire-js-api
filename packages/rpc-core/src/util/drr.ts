@@ -5,7 +5,7 @@ import type { Observable } from 'rxjs';
 
 import { catchError, distinctUntilChanged, publishReplay, refCount, tap } from 'rxjs';
 
-import { logger, stringify } from '@polkadot/util';
+import { logger, stringify } from '@5ire/util';
 
 import { refCountDelay } from './refCountDelay';
 

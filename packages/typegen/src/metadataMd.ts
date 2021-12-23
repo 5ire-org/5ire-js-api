@@ -13,7 +13,7 @@ import { getStorage as getSubstrateStorage } from '@polkadot/types/metadata/deco
 import { Text } from '@polkadot/types/primitive';
 import { unwrapStorageType } from '@polkadot/types/primitive/StorageKey';
 import rpcdata from '@polkadot/types-support/metadata/static-substrate';
-import { stringCamelCase, stringLowerFirst } from '@polkadot/util';
+import { stringCamelCase, stringLowerFirst } from '@5ire/util';
 
 interface SectionItem {
   link?: string;

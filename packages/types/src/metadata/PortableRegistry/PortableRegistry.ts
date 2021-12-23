@@ -7,7 +7,7 @@ import type { SiField, SiLookupTypeId, SiPath, SiType, SiTypeDefArray, SiTypeDef
 import type { Text, Type } from '../../primitive';
 import type { Registry, TypeDef } from '../../types';
 
-import { assert, isNumber, isString, objectSpread, stringCamelCase, stringify, stringUpperFirst } from '@polkadot/util';
+import { assert, isNumber, isString, objectSpread, stringCamelCase, stringify, stringUpperFirst } from '@5ire/util';
 
 import { Struct } from '../../codec/Struct';
 import { withTypeString } from '../../create/encodeTypes';

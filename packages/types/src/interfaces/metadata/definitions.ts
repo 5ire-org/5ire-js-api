@@ -6,7 +6,7 @@
 
 import type { Definitions } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import { AllHashers } from './hashers';
 import { v9 } from './v9';

@@ -10,7 +10,7 @@ import Handlebars from 'handlebars';
 
 import { getTypeDef, paramsNotation } from '@polkadot/types/create';
 import { TypeDefInfo } from '@polkadot/types/create/types';
-import { isString, stringify } from '@polkadot/util';
+import { isString, stringify } from '@5ire/util';
 
 import { readTemplate } from './file';
 import { ModuleTypes, setImports, TypeImports } from './imports';

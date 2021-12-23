@@ -9,7 +9,7 @@ import type { DeriveBalancesAccount, DeriveBalancesAccountData } from '../types'
 
 import { combineLatest, map, of, switchMap } from 'rxjs';
 
-import { isFunction } from '@polkadot/util';
+import { isFunction } from '@5ire/util';
 
 import { memo } from '../util';
 

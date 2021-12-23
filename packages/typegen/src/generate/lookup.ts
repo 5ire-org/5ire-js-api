@@ -13,7 +13,7 @@ import { Registry } from '@polkadot/types/types';
 import staticKusama from '@polkadot/types-support/metadata/static-kusama';
 import staticPolkadot from '@polkadot/types-support/metadata/static-polkadot';
 import staticSubstrate from '@polkadot/types-support/metadata/static-substrate';
-import { isString, stringify } from '@polkadot/util';
+import { isString, stringify } from '@5ire/util';
 
 import { createImports, exportType, initMeta, readTemplate, writeFile } from '../util';
 import { typeEncoders } from './tsDef';

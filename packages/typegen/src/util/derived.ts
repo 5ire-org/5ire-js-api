@@ -11,7 +11,7 @@ import { TypeDefInfo } from '@polkadot/types/create/types';
 import { GenericAccountId, GenericLookupSource, GenericVote } from '@polkadot/types/generic';
 import { AllConvictions } from '@polkadot/types/interfaces/democracy/definitions';
 import { bool, Null } from '@polkadot/types/primitive';
-import { isChildClass, stringify } from '@polkadot/util';
+import { isChildClass, stringify } from '@5ire/util';
 
 import { formatType } from './formatting';
 import { ModuleTypes, setImports, TypeImports } from './imports';

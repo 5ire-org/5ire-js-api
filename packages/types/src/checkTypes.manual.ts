@@ -6,7 +6,7 @@ import type { AccountId, BlockAttestations, SessionKeys7 } from './interfaces';
 import type { Bytes, u32 } from './primitive';
 import type { IOption, ITuple } from './types';
 
-import { assert } from '@polkadot/util';
+import { assert } from '@5ire/util';
 
 import { TypeRegistry } from './create';
 

@@ -8,7 +8,7 @@ import json2 from '@polkadot/types-support/json/Header.002.json';
 import json3 from '@polkadot/types-support/json/Header.003.json';
 import block00300 from '@polkadot/types-support/json/SignedBlock.003.00.json';
 import block00301 from '@polkadot/types-support/json/SignedBlock.003.01.json';
-import { BN } from '@polkadot/util';
+import { BN } from '@5ire/util';
 
 import { TypeRegistry } from '../../create';
 

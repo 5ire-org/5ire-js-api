@@ -3,7 +3,7 @@
 
 import type { Registry } from '../types';
 
-import { u8aToHex } from '@polkadot/util';
+import { u8aToHex } from '@5ire/util';
 
 import { TypeRegistry } from '../create';
 import { Null, Text, U32 } from '../primitive';

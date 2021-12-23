@@ -5,11 +5,11 @@ import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
 import type { Option, u32 } from '@polkadot/types';
 import type { ActiveEraInfo, EraIndex } from '@polkadot/types/interfaces';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 
 import { map } from 'rxjs';
 
-import { BN_ONE, BN_ZERO } from '@polkadot/util';
+import { BN_ONE, BN_ZERO } from '@5ire/util';
 
 import { memo } from '../util';
 

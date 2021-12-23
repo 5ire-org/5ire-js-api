@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@5ire/util/types';
 import type { Codec, Constructor, Registry } from '../types';
 
-import { assert, compactFromU8a, logger, u8aToU8a } from '@polkadot/util';
+import { assert, compactFromU8a, logger, u8aToU8a } from '@5ire/util';
 
 import { AbstractArray } from './AbstractArray';
 import { decodeU8aVec, typeToConstructor } from './utils';

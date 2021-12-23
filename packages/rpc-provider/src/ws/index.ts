@@ -7,7 +7,7 @@ import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback, Pro
 
 import EventEmitter from 'eventemitter3';
 
-import { assert, isChildClass, isNull, isUndefined, logger } from '@polkadot/util';
+import { assert, isChildClass, isNull, isUndefined, logger } from '@5ire/util';
 import { xglobal } from '@polkadot/x-global';
 import { WebSocket } from '@polkadot/x-ws';
 

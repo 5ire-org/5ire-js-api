@@ -1,12 +1,12 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@5ire/util/types';
 import type { CodecHash, Hash } from '../interfaces/runtime';
 import type { AnyNumber, INumber, Registry } from '../types';
 import type { UIntBitLength } from './types';
 
-import { assert, BN, BN_BILLION, BN_HUNDRED, BN_MILLION, BN_QUINTILL, BN_ZERO, bnToBn, bnToHex, bnToU8a, formatBalance, formatNumber, hexToBn, isBn, isHex, isU8a, stringify, u8aToBn } from '@polkadot/util';
+import { assert, BN, BN_BILLION, BN_HUNDRED, BN_MILLION, BN_QUINTILL, BN_ZERO, bnToBn, bnToHex, bnToU8a, formatBalance, formatNumber, hexToBn, isBn, isHex, isU8a, stringify, u8aToBn } from '@5ire/util';
 
 export const DEFAULT_UINT_BITS = 64;
 

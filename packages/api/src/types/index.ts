@@ -12,7 +12,7 @@ import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
 import type { Hash, RuntimeVersion } from '@polkadot/types/interfaces';
 import type { Metadata } from '@polkadot/types/metadata';
 import type { CallFunction, DefinitionRpc, DefinitionRpcSub, RegisteredTypes, Registry, RegistryError, SignatureOptions, Signer } from '@polkadot/types/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { ApiBase } from '../base';
 import type { DeriveAllSections } from '../util/decorate';
 import type { ApiTypes } from './base';

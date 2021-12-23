@@ -4,7 +4,7 @@
 import type { H256 } from '../interfaces/runtime';
 import type { Registry } from '../types';
 
-import { assert, isString, isU8a, u8aToU8a } from '@polkadot/util';
+import { assert, isString, isU8a, u8aToU8a } from '@5ire/util';
 
 import { Enum } from '../codec/Enum';
 import { Bytes } from './Bytes';

@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { DeriveOwnContributions } from '../types';
 
 import { combineLatest, EMPTY, map, of, startWith, switchMap } from 'rxjs';

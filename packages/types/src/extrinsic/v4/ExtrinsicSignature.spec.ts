@@ -3,7 +3,7 @@
 
 import { createTestPairs } from '@polkadot/keyring/testingPairs';
 import metadataStatic from '@polkadot/types-support/metadata/static-substrate';
-import { BN_ZERO } from '@polkadot/util';
+import { BN_ZERO } from '@5ire/util';
 
 import { TypeRegistry } from '../../create';
 import { Metadata } from '../../metadata';

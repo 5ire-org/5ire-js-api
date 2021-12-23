@@ -11,7 +11,7 @@ import type { DeriveDispatch, DeriveProposalImage } from '../types';
 
 import { catchError, combineLatest, map, of, switchMap } from 'rxjs';
 
-import { isFunction, stringToHex } from '@polkadot/util';
+import { isFunction, stringToHex } from '@5ire/util';
 
 import { memo } from '../util';
 

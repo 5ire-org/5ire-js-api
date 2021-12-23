@@ -4,7 +4,7 @@
 import type { Call, FunctionMetadataLatest } from '../../../interfaces';
 import type { AnyJson, AnyTuple, CallFunction, IMethod, Registry } from '../../../types';
 
-import { assert, stringCamelCase } from '@polkadot/util';
+import { assert, stringCamelCase } from '@5ire/util';
 
 function isTx <A extends AnyTuple> (tx: IMethod<AnyTuple>, callIndex: Uint8Array): tx is IMethod<A> {
   return tx.callIndex[0] === callIndex[0] && tx.callIndex[1] === callIndex[1];

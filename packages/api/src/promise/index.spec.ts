@@ -9,7 +9,7 @@ import { createPair } from '@polkadot/keyring/pair';
 import { createTestKeyring } from '@polkadot/keyring/testing';
 import { MockProvider } from '@polkadot/rpc-provider/mock';
 import { TypeRegistry } from '@polkadot/types';
-import { hexToU8a } from '@polkadot/util';
+import { hexToU8a } from '@5ire/util';
 
 import { SingleAccountSigner } from '../../test/util';
 import { ApiPromise } from '.';

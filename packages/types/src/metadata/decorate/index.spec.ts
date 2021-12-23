@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import json from '@polkadot/types-support/metadata/static-substrate';
-import { u8aToHex } from '@polkadot/util';
+import { u8aToHex } from '@5ire/util';
 
 import { TypeRegistry } from '../../create';
 import { u32 } from '../../primitive';

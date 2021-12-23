@@ -8,7 +8,7 @@ import type { Type } from '../../primitive/Type';
 import type { OverrideModuleType, Registry } from '../../types';
 
 import { getModuleTypes, knownOrigins } from '@polkadot/types-known';
-import { stringCamelCase } from '@polkadot/util';
+import { stringCamelCase } from '@5ire/util';
 
 interface MapDef {
   hashers: StorageHasherV13[];

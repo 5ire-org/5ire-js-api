@@ -11,7 +11,7 @@ import type { AddressOrPair, SignerOptions, SubmittableDryRunResult, Submittable
 
 import { catchError, first, map, mapTo, mergeMap, of, switchMap, tap } from 'rxjs';
 
-import { assert, isBn, isFunction, isNumber, isString, isU8a, objectSpread } from '@polkadot/util';
+import { assert, isBn, isFunction, isNumber, isString, isU8a, objectSpread } from '@5ire/util';
 
 import { ApiBase } from '../base';
 import { filterEvents, isKeyringPair } from '../util';

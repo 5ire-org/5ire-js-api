@@ -4,7 +4,7 @@
 import type { FunctionMetadataLatest } from '../interfaces/metadata';
 import type { AnyJson, AnyTuple, AnyU8a, ArgsDef, CallBase, CallFunction, Codec, IMethod, InterfaceTypes, Registry } from '../types';
 
-import { isHex, isObject, isU8a, objectSpread, u8aToU8a } from '@polkadot/util';
+import { isHex, isObject, isU8a, objectSpread, u8aToU8a } from '@5ire/util';
 
 import { Struct } from '../codec/Struct';
 import { U8aFixed } from '../codec/U8aFixed';

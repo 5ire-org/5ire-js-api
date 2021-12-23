@@ -3,7 +3,7 @@
 
 import type { CallFunction, Registry, RegistryError } from '@polkadot/types/types';
 
-import { u8aToU8a } from '@polkadot/util';
+import { u8aToU8a } from '@5ire/util';
 
 export function findCall (registry: Registry, callIndex: Uint8Array | string): CallFunction {
   return registry.findMetaCall(u8aToU8a(callIndex));

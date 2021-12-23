@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { BN } from '@polkadot/util';
+import { BN } from '@5ire/util';
 
 export const FALLBACK_MAX_HASH_COUNT = 250;
 

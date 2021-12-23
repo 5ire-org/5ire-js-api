@@ -11,7 +11,7 @@ import Handlebars from 'handlebars';
 import lookupDefinitions from '@polkadot/types/augment/lookup/definitions';
 import * as defaultDefs from '@polkadot/types/interfaces/definitions';
 import { unwrapStorageSi } from '@polkadot/types/primitive/StorageKey';
-import { stringCamelCase } from '@polkadot/util';
+import { stringCamelCase } from '@5ire/util';
 
 import { compareName, createImports, formatType, getSimilarTypes, initMeta, readTemplate, setImports, TypeImports, writeFile } from '../util';
 import { ModuleTypes } from '../util/imports';

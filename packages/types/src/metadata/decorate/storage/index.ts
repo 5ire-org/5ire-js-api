@@ -5,7 +5,7 @@ import type { MetadataLatest, StorageEntryMetadataLatest } from '../../../interf
 import type { Registry } from '../../../types';
 import type { Storage } from '../types';
 
-import { lazyMethod, lazyMethods, stringCamelCase } from '@polkadot/util';
+import { lazyMethod, lazyMethods, stringCamelCase } from '@5ire/util';
 
 import { objectNameFirstLower } from '../util';
 import { createFunction, createKeyRaw } from './createFunction';

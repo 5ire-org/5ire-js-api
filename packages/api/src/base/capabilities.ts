@@ -9,7 +9,7 @@ import type { InterfaceTypes } from '@polkadot/types/types';
 
 import { catchError, combineLatest, map, of, take } from 'rxjs';
 
-import { assert, compactFromU8a } from '@polkadot/util';
+import { assert, compactFromU8a } from '@5ire/util';
 
 // the order and types needs to map with the all array setup below
 type ExtractedQ = [Releases | null];

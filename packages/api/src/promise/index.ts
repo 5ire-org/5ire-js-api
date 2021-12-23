@@ -7,7 +7,7 @@ import type { ApiOptions, DecorateFn, DecorateMethodOptions, ObsInnerType, Stora
 
 import { catchError, EMPTY, Subscription, tap } from 'rxjs';
 
-import { assert, isFunction, objectSpread } from '@polkadot/util';
+import { assert, isFunction, objectSpread } from '@5ire/util';
 
 import { ApiBase } from '../base';
 import { Combinator, CombinatorCallback, CombinatorFunction } from './Combinator';

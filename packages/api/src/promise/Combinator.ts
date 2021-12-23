@@ -4,7 +4,7 @@
 import type { Callback } from '@polkadot/types/types';
 import type { UnsubscribePromise } from '../types';
 
-import { isFunction } from '@polkadot/util';
+import { isFunction } from '@5ire/util';
 
 export type CombinatorCallback <T extends unknown[]> = Callback<T>;
 

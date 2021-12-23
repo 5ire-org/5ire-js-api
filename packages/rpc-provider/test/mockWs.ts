@@ -3,7 +3,7 @@
 
 import { Server, WebSocket } from 'mock-socket';
 
-import { stringify } from '@polkadot/util';
+import { stringify } from '@5ire/util';
 
 interface Scope {
   body: { [index: string]: Record<string, unknown> };

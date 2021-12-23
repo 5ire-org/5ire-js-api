@@ -4,7 +4,7 @@
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
 import type { ReferendumIndex } from '@polkadot/types/interfaces';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 
 import { map, of } from 'rxjs';
 

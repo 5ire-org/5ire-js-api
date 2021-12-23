@@ -6,13 +6,13 @@ import type { ProviderInterface, ProviderInterfaceCallback } from '@polkadot/rpc
 import type { StorageKey, Vec } from '@polkadot/types';
 import type { Hash } from '@polkadot/types/interfaces';
 import type { AnyJson, Codec, DefinitionRpc, DefinitionRpcExt, DefinitionRpcSub, Registry } from '@polkadot/types/types';
-import type { Memoized } from '@polkadot/util/types';
+import type { Memoized } from '@5ire/util/types';
 import type { RpcInterfaceMethod } from './types';
 
 import { Observable, publishReplay, refCount } from 'rxjs';
 
 import { rpcDefinitions } from '@polkadot/types';
-import { assert, hexToU8a, isFunction, isNull, isUndefined, lazyMethod, logger, memoize, objectSpread, u8aToU8a } from '@polkadot/util';
+import { assert, hexToU8a, isFunction, isNull, isUndefined, lazyMethod, logger, memoize, objectSpread, u8aToU8a } from '@5ire/util';
 
 import { drr, refCountDelay } from './util';
 

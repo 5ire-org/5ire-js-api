@@ -4,7 +4,7 @@
 import type { Registry } from '../types/registry';
 import type { TypeDef } from './types';
 
-import { assert, isNumber, isUndefined, objectSpread, stringify } from '@polkadot/util';
+import { assert, isNumber, isUndefined, objectSpread, stringify } from '@5ire/util';
 
 import { TypeDefInfo } from './types';
 

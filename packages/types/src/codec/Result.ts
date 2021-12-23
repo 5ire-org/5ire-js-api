@@ -3,7 +3,7 @@
 
 import type { Codec, Constructor, IResult, Registry } from '../types';
 
-import { assert } from '@polkadot/util';
+import { assert } from '@5ire/util';
 
 import { Enum } from './Enum';
 

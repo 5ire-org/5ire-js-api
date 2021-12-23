@@ -11,7 +11,7 @@ import type { DeriveAccountRegistration, DeriveHasIdentity } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';
 
-import { isHex, u8aToString } from '@polkadot/util';
+import { isHex, u8aToString } from '@5ire/util';
 
 import { memo } from '../util';
 

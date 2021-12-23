@@ -3,7 +3,7 @@
 
 import type { AnyU8a, Registry } from '../types';
 
-import { assert, compactAddLength, compactFromU8a, compactToU8a, isString, isU8a, u8aToU8a } from '@polkadot/util';
+import { assert, compactAddLength, compactFromU8a, compactToU8a, isString, isU8a, u8aToU8a } from '@5ire/util';
 
 import { Raw } from '../codec/Raw';
 

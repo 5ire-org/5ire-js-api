@@ -5,7 +5,7 @@ import type { ProviderInterface } from '@polkadot/rpc-provider/types';
 
 import { MockProvider } from '@polkadot/rpc-provider/mock';
 import { TypeRegistry } from '@polkadot/types/create';
-import { isFunction } from '@polkadot/util';
+import { isFunction } from '@5ire/util';
 
 import { RpcCore } from '.';
 

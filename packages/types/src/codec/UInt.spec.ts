@@ -3,7 +3,7 @@
 
 import BNOrig from 'bn.js';
 
-import { BN, BN_TWO, isBn } from '@polkadot/util';
+import { BN, BN_TWO, isBn } from '@5ire/util';
 
 import { TypeRegistry } from '../create';
 import { UInt } from '.';

@@ -3,7 +3,7 @@
 
 import { createTestPairs } from '@polkadot/keyring/testingPairs';
 import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
-import { BN } from '@polkadot/util';
+import { BN } from '@5ire/util';
 
 import { TypeRegistry } from '../../create';
 import { decorateExtrinsics, Metadata } from '../../metadata';

@@ -5,7 +5,7 @@ import type { ChainUpgrades } from '@polkadot/types/types';
 import type { ChainUpgradesRaw } from './types';
 
 import { selectableNetworks } from '@polkadot/networks';
-import { assert, BN, hexToU8a, stringify } from '@polkadot/util';
+import { assert, BN, hexToU8a, stringify } from '@5ire/util';
 
 import kusama from './kusama';
 import polkadot from './polkadot';

@@ -9,7 +9,7 @@ import type { DeriveSessionInfo, DeriveStakingAccount, DeriveStakingKeys, Derive
 
 import { combineLatest, map, switchMap } from 'rxjs';
 
-import { BN, BN_ZERO } from '@polkadot/util';
+import { BN, BN_ZERO } from '@5ire/util';
 
 import { memo } from '../util';
 

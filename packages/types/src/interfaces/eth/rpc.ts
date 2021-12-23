@@ -5,7 +5,7 @@
 
 import type { DefinitionsRpc } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 // We use aliasSection here to override since these are in another namespace
 const netRpc: DefinitionsRpc = {

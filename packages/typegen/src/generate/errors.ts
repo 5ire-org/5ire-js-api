@@ -6,7 +6,7 @@ import type { ExtraTypes } from './types';
 
 import Handlebars from 'handlebars';
 
-import { stringCamelCase } from '@polkadot/util';
+import { stringCamelCase } from '@5ire/util';
 
 import { compareName, createImports, initMeta, readTemplate, writeFile } from '../util';
 
