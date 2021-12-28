@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { u32 } from '@polkadot/types';
-import type { AccountId, Balance, BalanceOf, BlockNumber, StrikeCount } from '@polkadot/types/interfaces';
-import type { PalletSocietyBid, PalletSocietyBidKind, PalletSocietyVote, PalletSocietyVouchingStatus } from '@polkadot/types/lookup';
+import type { u32 } from '@5ire/types';
+import type { AccountId, Balance, BalanceOf, BlockNumber, StrikeCount } from '@5ire/types/interfaces';
+import type { PalletSocietyBid, PalletSocietyBidKind, PalletSocietyVote, PalletSocietyVouchingStatus } from '@5ire/types/lookup';
 
 export interface DeriveSociety {
   bids: PalletSocietyBid[];

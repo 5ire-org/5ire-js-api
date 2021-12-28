@@ -3,7 +3,7 @@
 
 import type { CodecTo } from '../types';
 
-import { BN } from '@polkadot/util';
+import { BN } from '@5ire/util';
 
 import { TypeRegistry } from '../create';
 import { U64 } from '../primitive';

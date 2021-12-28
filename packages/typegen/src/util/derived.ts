@@ -1,17 +1,17 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { TypeDef } from '@polkadot/types/create/types';
-import type { Constructor, Registry } from '@polkadot/types/types';
+import type { TypeDef } from '@5ire/types/create/types';
+import type { Constructor, Registry } from '@5ire/types/types';
 
-import { Compact, Enum, Option, Struct, Tuple, UInt, Vec } from '@polkadot/types/codec';
-import { AbstractInt } from '@polkadot/types/codec/AbstractInt';
-import { getTypeDef } from '@polkadot/types/create';
-import { TypeDefInfo } from '@polkadot/types/create/types';
-import { GenericAccountId, GenericLookupSource, GenericVote } from '@polkadot/types/generic';
-import { AllConvictions } from '@polkadot/types/interfaces/democracy/definitions';
-import { bool, Null } from '@polkadot/types/primitive';
-import { isChildClass, stringify } from '@polkadot/util';
+import { Compact, Enum, Option, Struct, Tuple, UInt, Vec } from '@5ire/types/codec';
+import { AbstractInt } from '@5ire/types/codec/AbstractInt';
+import { getTypeDef } from '@5ire/types/create';
+import { TypeDefInfo } from '@5ire/types/create/types';
+import { GenericAccountId, GenericLookupSource, GenericVote } from '@5ire/types/generic';
+import { AllConvictions } from '@5ire/types/interfaces/democracy/definitions';
+import { bool, Null } from '@5ire/types/primitive';
+import { isChildClass, stringify } from '@5ire/util';
 
 import { formatType } from './formatting';
 import { ModuleTypes, setImports, TypeImports } from './imports';

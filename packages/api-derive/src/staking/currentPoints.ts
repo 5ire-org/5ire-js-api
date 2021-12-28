@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { PalletStakingEraRewardPoints } from '@polkadot/types/lookup';
+import type { PalletStakingEraRewardPoints } from '@5ire/types/lookup';
 
 import { switchMap } from 'rxjs';
 

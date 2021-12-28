@@ -1,9 +1,9 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Struct, bool, u8 } from '@polkadot/types';
-import type { Balance, BlockNumber } from '@polkadot/types/interfaces/runtime';
-import type { ITuple } from '@polkadot/types/types';
+import type { Struct, bool, u8 } from '@5ire/types';
+import type { Balance, BlockNumber } from '@5ire/types/interfaces/runtime';
+import type { ITuple } from '@5ire/types/types';
 
 /** @name CallIndex */
 export interface CallIndex extends ITuple<[u8, u8]> {}

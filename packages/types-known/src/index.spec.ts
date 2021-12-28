@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types-known authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TypeRegistry } from '@polkadot/types/create/registry';
+import { TypeRegistry } from '@5ire/types/create/registry';
 
 import { getModuleTypes } from './';
 

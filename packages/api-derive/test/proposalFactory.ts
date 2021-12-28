@@ -3,8 +3,8 @@
 
 import { ApiPromise } from '@5ire/api';
 import { SubmittableExtrinsic } from '@5ire/api/types';
-import { Proposal, ProposalIndex } from '@polkadot/types/interfaces';
-import { Registry } from '@polkadot/types/types';
+import { Proposal, ProposalIndex } from '@5ire/types/interfaces';
+import { Registry } from '@5ire/types/types';
 
 export class ProposalFactory {
   readonly #api: ApiPromise;

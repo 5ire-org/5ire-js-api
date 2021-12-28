@@ -3,12 +3,12 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { AccountId } from '@polkadot/types/interfaces';
+import type { AccountId } from '@5ire/types/interfaces';
 import type { DeriveStakingElected, StakingQueryFlags } from '../types';
 
 import { map, switchMap } from 'rxjs';
 
-import { arrayFlatten } from '@polkadot/util';
+import { arrayFlatten } from '@5ire/util';
 
 import { memo } from '../util';
 

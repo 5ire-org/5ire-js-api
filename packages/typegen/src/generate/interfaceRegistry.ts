@@ -3,10 +3,10 @@
 
 import Handlebars from 'handlebars';
 
-import { Json, Raw } from '@polkadot/types/codec';
-import { TypeRegistry } from '@polkadot/types/create';
-import * as defaultDefinitions from '@polkadot/types/interfaces/definitions';
-import * as defaultPrimitives from '@polkadot/types/primitive';
+import { Json, Raw } from '@5ire/types/codec';
+import { TypeRegistry } from '@5ire/types/create';
+import * as defaultDefinitions from '@5ire/types/interfaces/definitions';
+import * as defaultPrimitives from '@5ire/types/primitive';
 
 import { createImports, readTemplate, setImports, writeFile } from '../util';
 import { ModuleTypes } from '../util/imports';
@@ -79,7 +79,7 @@ export function generateInterfaceTypes (importDefinitions: { [importPath: string
 // Generate `packages/types/src/interfaceRegistry.ts`, the registry of all interfaces
 export function generateDefaultInterface (): void {
   generateInterfaceTypes(
-    { '@polkadot/types/interfaces': defaultDefinitions },
+    { '@5ire/types/interfaces': defaultDefinitions },
     'packages/types/src/augment/registry.ts'
   );
 }

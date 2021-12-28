@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { BlockNumber } from '@polkadot/types/interfaces';
+import type { BlockNumber } from '@5ire/types/interfaces';
 
 import { map } from 'rxjs';
 

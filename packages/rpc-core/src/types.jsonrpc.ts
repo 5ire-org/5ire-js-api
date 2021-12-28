@@ -4,7 +4,7 @@
 // FIXME, this whole file needs to move to API
 
 import type { Observable } from 'rxjs';
-import type { AnyFunction, DefinitionRpc } from '@polkadot/types/types';
+import type { AnyFunction, DefinitionRpc } from '@5ire/types/types';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface RpcInterface {}

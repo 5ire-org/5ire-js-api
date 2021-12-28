@@ -6,7 +6,7 @@
 
 import type { Definitions } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import hrmpTypes from './hrmp';
 import slotTypes from './slots';

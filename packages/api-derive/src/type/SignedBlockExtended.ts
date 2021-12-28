@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountId, DispatchError, DispatchInfo, EventRecord, Extrinsic, SignedBlock } from '@polkadot/types/interfaces';
-import type { Registry } from '@polkadot/types/types';
+import type { AccountId, DispatchError, DispatchInfo, EventRecord, Extrinsic, SignedBlock } from '@5ire/types/interfaces';
+import type { Registry } from '@5ire/types/types';
 import type { SignedBlockExtended, TxWithEvent } from './types';
 
 import { extractAuthor } from './util';

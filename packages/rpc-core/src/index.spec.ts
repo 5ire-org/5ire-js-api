@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/rpc-core authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ProviderInterface } from '@polkadot/rpc-provider/types';
+import type { ProviderInterface } from '@5ire/rpc-provider/types';
 
-import { MockProvider } from '@polkadot/rpc-provider/mock';
-import { TypeRegistry } from '@polkadot/types/create';
-import { isFunction } from '@polkadot/util';
+import { MockProvider } from '@5ire/rpc-provider/mock';
+import { TypeRegistry } from '@5ire/types/create';
+import { isFunction } from '@5ire/util';
 
 import { RpcCore } from '.';
 

@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx, QueryableStorageMultiArg } from '@5ire/api/types';
-import type { Option } from '@polkadot/types';
-import type { BalanceOf, EraIndex, Perbill } from '@polkadot/types/interfaces';
-import type { ITuple } from '@polkadot/types/types';
+import type { Option } from '@5ire/types';
+import type { BalanceOf, EraIndex, Perbill } from '@5ire/types/interfaces';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveStakerSlashes } from '../types';
 
 import { map, of, switchMap } from 'rxjs';

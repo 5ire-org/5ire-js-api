@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Vec } from '@polkadot/types';
-import type { EventRecord } from '@polkadot/types/interfaces';
-import type { BN } from '@polkadot/util';
+import type { Vec } from '@5ire/types';
+import type { EventRecord } from '@5ire/types/interfaces';
+import type { BN } from '@5ire/util';
 
 interface Changes {
   added: string[];

@@ -3,7 +3,7 @@
 
 import type { Codec, Registry } from '../types';
 
-import { isFunction, isNull, isUndefined } from '@polkadot/util';
+import { isFunction, isNull, isUndefined } from '@5ire/util';
 
 import { Json } from '../codec/Json';
 import { Option } from '../codec/Option';

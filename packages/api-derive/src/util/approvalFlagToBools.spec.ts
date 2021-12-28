@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ApprovalFlag } from '@polkadot/types/interfaces';
+import type { ApprovalFlag } from '@5ire/types/interfaces';
 
-import { TypeRegistry } from '@polkadot/types/create';
+import { TypeRegistry } from '@5ire/types/create';
 
 import { approvalFlagsToBools } from './approvalFlagsToBools';
 

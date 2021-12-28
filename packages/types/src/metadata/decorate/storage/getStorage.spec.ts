@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import metadataStatic from '@polkadot/types-support/metadata/static-substrate';
-import { compactAddLength, u8aToU8a } from '@polkadot/util';
+import metadataStatic from '@5ire/types-support/metadata/static-substrate';
+import { compactAddLength, u8aToU8a } from '@5ire/util';
 
 import { TypeRegistry } from '../../../create';
 import { Metadata } from '../../Metadata';

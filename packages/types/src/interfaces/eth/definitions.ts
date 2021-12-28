@@ -8,7 +8,7 @@
 
 import type { DefinitionsTypes } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import { rpc } from './rpc';
 

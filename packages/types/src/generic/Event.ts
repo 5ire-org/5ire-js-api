@@ -6,7 +6,7 @@ import type { EventMetadataLatest } from '../interfaces/metadata';
 import type { EventId } from '../interfaces/system';
 import type { AnyJson, Codec, Constructor, IEvent, IEventData, InterfaceTypes, Registry } from '../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import { Struct } from '../codec/Struct';
 import { Tuple } from '../codec/Tuple';

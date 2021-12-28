@@ -3,13 +3,13 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Balance } from '@polkadot/types/interfaces';
-import type { PalletStakingStakingLedger, PalletStakingUnlockChunk } from '@polkadot/types/lookup';
+import type { Balance } from '@5ire/types/interfaces';
+import type { PalletStakingStakingLedger, PalletStakingUnlockChunk } from '@5ire/types/lookup';
 import type { DeriveSessionInfo, DeriveStakingAccount, DeriveStakingKeys, DeriveStakingQuery, DeriveUnlocking } from '../types';
 
 import { combineLatest, map, switchMap } from 'rxjs';
 
-import { BN, BN_ZERO } from '@polkadot/util';
+import { BN, BN_ZERO } from '@5ire/util';
 
 import { memo } from '../util';
 

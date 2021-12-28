@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/types-known authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { ChainUpgrades } from '@polkadot/types/types';
+import type { ChainUpgrades } from '@5ire/types/types';
 import type { ChainUpgradesRaw } from './types';
 
 import { selectableNetworks } from '@polkadot/networks';
-import { assert, BN, hexToU8a, stringify } from '@polkadot/util';
+import { assert, BN, hexToU8a, stringify } from '@5ire/util';
 
 import kusama from './kusama';
 import polkadot from './polkadot';

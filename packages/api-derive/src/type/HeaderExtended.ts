@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountId, Header } from '@polkadot/types/interfaces';
-import type { Registry } from '@polkadot/types/types';
+import type { AccountId, Header } from '@5ire/types/interfaces';
+import type { Registry } from '@5ire/types/types';
 import type { HeaderExtended } from './types';
 
 import { extractAuthor } from './util';

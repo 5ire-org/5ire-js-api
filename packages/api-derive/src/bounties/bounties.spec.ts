@@ -2,15 +2,15 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { ApiInterfaceRx, SubmittableExtrinsic } from '@5ire/api/types';
-import type { Bytes, Option, StorageKey } from '@polkadot/types';
-import type { Bounty, BountyIndex, ProposalIndex } from '@polkadot/types/interfaces';
-import type { Codec, InterfaceTypes } from '@polkadot/types/types';
+import type { Bytes, Option, StorageKey } from '@5ire/types';
+import type { Bounty, BountyIndex, ProposalIndex } from '@5ire/types/interfaces';
+import type { Codec, InterfaceTypes } from '@5ire/types/types';
 
 import { firstValueFrom, of } from 'rxjs';
 
 import { ApiPromise } from '@5ire/api';
-import { DeriveCollectiveProposal } from '@polkadot/api-derive/types';
-import { Proposal } from '@polkadot/types/interfaces';
+import { DeriveCollectiveProposal } from '@5ire/api-derive/types';
+import { Proposal } from '@5ire/types/interfaces';
 
 import { BountyFactory } from '../../test/bountyFactory';
 import { BytesFactory } from '../../test/bytesFactory';

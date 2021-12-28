@@ -4,7 +4,7 @@
 import type { AnyU8a, Constructor, Registry } from '../types';
 import type { U8aBitLength } from './types';
 
-import { assert, isU8a, u8aToU8a } from '@polkadot/util';
+import { assert, isU8a, u8aToU8a } from '@5ire/util';
 
 import { Raw } from './Raw';
 

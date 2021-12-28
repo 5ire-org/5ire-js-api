@@ -6,7 +6,7 @@
 
 import type { Definitions } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 const deprecated = {
   Points: 'u32',

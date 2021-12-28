@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Vec } from '@polkadot/types';
-import type { AccountId, Balance, BlockNumber, Hash, PropIndex, Proposal, ReferendumIndex, ReferendumInfoTo239, Vote } from '@polkadot/types/interfaces';
-import type { PalletDemocracyReferendumStatus, PalletDemocracyVoteThreshold } from '@polkadot/types/lookup';
-import type { BN } from '@polkadot/util';
+import type { Vec } from '@5ire/types';
+import type { AccountId, Balance, BlockNumber, Hash, PropIndex, Proposal, ReferendumIndex, ReferendumInfoTo239, Vote } from '@5ire/types/interfaces';
+import type { PalletDemocracyReferendumStatus, PalletDemocracyVoteThreshold } from '@5ire/types/lookup';
+import type { BN } from '@5ire/util';
 
 export interface DeriveDemocracyLock {
   balance: Balance;

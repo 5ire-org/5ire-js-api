@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { u32 } from '@polkadot/types';
-import type { Hash } from '@polkadot/types/interfaces';
+import type { u32 } from '@5ire/types';
+import type { Hash } from '@5ire/types/interfaces';
 import type { DeriveCollectiveProposal } from '../types';
 
 import { hasProposals as collectiveHasProposals, proposal as collectiveProposal, proposalCount as collectiveProposalCount, proposalHashes as collectiveProposalHashes, proposals as collectiveProposals } from '../collective';

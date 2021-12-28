@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountId, Balance, BalanceLockTo212, Index } from '@polkadot/types/interfaces';
-import type { PalletBalancesBalanceLock } from '@polkadot/types/lookup';
-import type { BN } from '@polkadot/util';
+import type { AccountId, Balance, BalanceLockTo212, Index } from '@5ire/types/interfaces';
+import type { PalletBalancesBalanceLock } from '@5ire/types/lookup';
+import type { BN } from '@5ire/util';
 
 export interface DeriveBalancesAccountData {
   freeBalance: Balance;

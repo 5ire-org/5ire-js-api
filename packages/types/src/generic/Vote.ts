@@ -5,7 +5,7 @@ import type { Conviction } from '../interfaces/democracy';
 import type { AllConvictions } from '../interfaces/democracy/definitions';
 import type { AnyJson, ArrayElementType, Registry } from '../types';
 
-import { isBoolean, isNumber, isU8a, isUndefined } from '@polkadot/util';
+import { isBoolean, isNumber, isU8a, isUndefined } from '@5ire/util';
 
 import { U8aFixed } from '../codec/U8aFixed';
 import { bool as Bool } from '../primitive/Bool';

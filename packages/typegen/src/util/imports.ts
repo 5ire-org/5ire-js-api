@@ -1,12 +1,12 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import * as codecClasses from '@polkadot/types/codec';
-import { getTypeDef } from '@polkadot/types/create';
-import { TypeDefInfo } from '@polkadot/types/create/types';
-import * as extrinsicClasses from '@polkadot/types/extrinsic';
-import * as genericClasses from '@polkadot/types/generic';
-import * as primitiveClasses from '@polkadot/types/primitive';
+import * as codecClasses from '@5ire/types/codec';
+import { getTypeDef } from '@5ire/types/create';
+import { TypeDefInfo } from '@5ire/types/create/types';
+import * as extrinsicClasses from '@5ire/types/extrinsic';
+import * as genericClasses from '@5ire/types/generic';
+import * as primitiveClasses from '@5ire/types/primitive';
 
 export interface ModuleTypes {
   types: Record<string, unknown>;
@@ -21,14 +21,14 @@ type TypeExist = Record<string, boolean>;
 type TypeExistMap = Record<string, TypeExist>;
 
 export interface TypeImports {
-  codecTypes: TypeExist; // `import {} from '@polkadot/types/codec`
-  extrinsicTypes: TypeExist; // `import {} from '@polkadot/types/extrinsic`
-  genericTypes: TypeExist; // `import {} from '@polkadot/types/generic`
+  codecTypes: TypeExist; // `import {} from '@5ire/types/codec`
+  extrinsicTypes: TypeExist; // `import {} from '@5ire/types/extrinsic`
+  genericTypes: TypeExist; // `import {} from '@5ire/types/generic`
   ignoredTypes: string[]; // No need to import these types
   localTypes: TypeExistMap; // `import {} from '../something'`
-  primitiveTypes: TypeExist; // `import {} from '@polkadot/types/primitive`
-  metadataTypes: TypeExist; // `import {} from '@polkadot/types/metadata`
-  typesTypes: TypeExist; // `import {} from '@polkadot/types/types`
+  primitiveTypes: TypeExist; // `import {} from '@5ire/types/primitive`
+  metadataTypes: TypeExist; // `import {} from '@5ire/types/metadata`
+  typesTypes: TypeExist; // `import {} from '@5ire/types/types`
   definitions: Record<string, ModuleTypes>; // all definitions
   typeToModule: Record<string, string>;
 }

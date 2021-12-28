@@ -4,7 +4,7 @@ Interfaces to allow for the encoding and decoding of Substrate contract ABIs.
 
 ```js
 import {ApiPromise, WsProvider } from '@5ire/api';
-import { Abi } from '@polkadot/api-contract';
+import { Abi } from '@5ire/api-contract';
 
 const wsProvider = new WsProvider(<...Node Url...>);
 const api = await ApiPromise.create({ provider: wsProvider });

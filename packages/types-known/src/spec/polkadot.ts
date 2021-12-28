@@ -3,9 +3,9 @@
 
 /* eslint-disable sort-keys */
 
-import type { OverrideVersionedType } from '@polkadot/types/types';
+import type { OverrideVersionedType } from '@5ire/types/types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 const sharedTypes = {
   CompactAssignments: 'CompactAssignmentsWith16',

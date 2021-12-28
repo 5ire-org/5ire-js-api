@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { createTestPairs } from '@polkadot/keyring/testingPairs';
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
-import { u8aToHex } from '@polkadot/util';
+import rpcMetadata from '@5ire/types-support/metadata/static-substrate';
+import { u8aToHex } from '@5ire/util';
 import { xxhashAsHex } from '@polkadot/util-crypto';
 
 import { TypeRegistry } from '../../../create';

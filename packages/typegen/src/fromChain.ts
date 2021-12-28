@@ -4,7 +4,7 @@
 import path from 'path';
 import yargs from 'yargs';
 
-import { formatNumber } from '@polkadot/util';
+import { formatNumber } from '@5ire/util';
 import { WebSocket } from '@polkadot/x-ws';
 
 import { generateDefaultConsts, generateDefaultErrors, generateDefaultEvents, generateDefaultQuery, generateDefaultRpc, generateDefaultTx } from './generate';

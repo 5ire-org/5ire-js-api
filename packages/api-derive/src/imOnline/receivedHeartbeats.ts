@@ -3,14 +3,14 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option, u32, WrapperOpaque } from '@polkadot/types';
-import type { AccountId } from '@polkadot/types/interfaces';
-import type { PalletImOnlineBoundedOpaqueNetworkState } from '@polkadot/types/lookup';
+import type { Option, u32, WrapperOpaque } from '@5ire/types';
+import type { AccountId } from '@5ire/types/interfaces';
+import type { PalletImOnlineBoundedOpaqueNetworkState } from '@5ire/types/lookup';
 import type { DeriveHeartbeats } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';
 
-import { BN_ZERO } from '@polkadot/util';
+import { BN_ZERO } from '@5ire/util';
 
 import { memo } from '../util';
 

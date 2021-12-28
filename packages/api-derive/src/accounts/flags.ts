@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Vec } from '@polkadot/types';
-import type { AccountId, Address, Balance } from '@polkadot/types/interfaces';
-import type { ITuple } from '@polkadot/types/types';
+import type { Vec } from '@5ire/types';
+import type { AccountId, Address, Balance } from '@5ire/types/interfaces';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveAccountFlags } from '../types';
 
 import { combineLatest, map, of } from 'rxjs';

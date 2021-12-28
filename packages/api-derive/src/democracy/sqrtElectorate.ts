@@ -3,11 +3,11 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 
 import { map } from 'rxjs';
 
-import { bnSqrt } from '@polkadot/util';
+import { bnSqrt } from '@5ire/util';
 
 import { memo } from '../util';
 

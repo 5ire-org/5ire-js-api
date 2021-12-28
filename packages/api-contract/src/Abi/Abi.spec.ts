@@ -1,12 +1,12 @@
 // Copyright 2017-2021 @polkadot/api-contract authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyJson, Registry } from '@polkadot/types/types';
+import type { AnyJson, Registry } from '@5ire/types/types';
 
 import fs from 'fs';
 import path from 'path';
 
-import { TypeDefInfo } from '@polkadot/types/types';
+import { TypeDefInfo } from '@5ire/types/types';
 import { blake2AsHex } from '@polkadot/util-crypto';
 
 import abis from '../../test/contracts';

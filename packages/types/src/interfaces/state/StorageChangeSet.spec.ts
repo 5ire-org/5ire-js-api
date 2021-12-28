@@ -3,8 +3,8 @@
 
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
-import { TypeRegistry } from '@polkadot/types/create';
-import json from '@polkadot/types-support/json/StorageChangeSet.001.json';
+import { TypeRegistry } from '@5ire/types/create';
+import json from '@5ire/types-support/json/StorageChangeSet.001.json';
 
 describe('StorageChangeSet', (): void => {
   const registry = new TypeRegistry();

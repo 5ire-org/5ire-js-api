@@ -3,7 +3,7 @@
 
 import type { AnyNumber, AnyString, AnyU8a, Codec, Constructor, ITuple, Registry } from '../types';
 
-import { isFunction, isHex, isString, isU8a, stringify, u8aConcat, u8aToU8a } from '@polkadot/util';
+import { isFunction, isHex, isString, isU8a, stringify, u8aConcat, u8aToU8a } from '@5ire/util';
 
 import { AbstractArray } from './AbstractArray';
 import { decodeU8a, mapToTypeMap, typeToConstructor } from './utils';

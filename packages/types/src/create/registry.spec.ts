@@ -5,7 +5,7 @@
 
 import type { Codec, Constructor } from '../types';
 
-import { isChildClass, u8aToU8a } from '@polkadot/util';
+import { isChildClass, u8aToU8a } from '@5ire/util';
 import { keccakAsU8a } from '@polkadot/util-crypto';
 
 import { DoNotConstruct, Struct } from '../codec';

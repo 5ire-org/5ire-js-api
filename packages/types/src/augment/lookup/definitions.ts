@@ -3,7 +3,7 @@
 
 import type { Definitions } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import kusama from './kusama';
 import polkadot from './polkadot';

@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import json from '@polkadot/types-support/metadata/static-substrate';
-import { u8aToHex } from '@polkadot/util';
+import json from '@5ire/types-support/metadata/static-substrate';
+import { u8aToHex } from '@5ire/util';
 
 import { TypeRegistry } from '../../create';
 import { u32 } from '../../primitive';

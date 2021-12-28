@@ -4,8 +4,8 @@
 import type { Observable } from 'rxjs';
 import type { SubmittableExtrinsic } from '@5ire/api/submittable/types';
 import type { ApiTypes, ObsInnerType } from '@5ire/api/types';
-import type { AccountId } from '@polkadot/types/interfaces';
-import type { BN } from '@polkadot/util';
+import type { AccountId } from '@5ire/types/interfaces';
+import type { BN } from '@5ire/util';
 import type { AbiMessage, BlueprintOptions, ContractCallOutcome, ContractOptions } from '../types';
 
 export interface BlueprintDeploy<ApiType extends ApiTypes> {

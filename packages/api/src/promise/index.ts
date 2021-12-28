@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { Callback, Codec } from '@polkadot/types/types';
+import type { Callback, Codec } from '@5ire/types/types';
 import type { ApiOptions, DecorateFn, DecorateMethodOptions, ObsInnerType, StorageEntryPromiseOverloads, UnsubscribePromise, VoidFn } from '../types';
 
 import { catchError, EMPTY, Subscription, tap } from 'rxjs';
 
-import { assert, isFunction, objectSpread } from '@polkadot/util';
+import { assert, isFunction, objectSpread } from '@5ire/util';
 
 import { ApiBase } from '../base';
 import { Combinator, CombinatorCallback, CombinatorFunction } from './Combinator';

@@ -1,17 +1,17 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { StorageEntryMetadataLatest } from '@polkadot/types/interfaces';
-import type { Metadata, PortableRegistry } from '@polkadot/types/metadata';
-import type { Registry } from '@polkadot/types/types';
+import type { StorageEntryMetadataLatest } from '@5ire/types/interfaces';
+import type { Metadata, PortableRegistry } from '@5ire/types/metadata';
+import type { Registry } from '@5ire/types/types';
 import type { ExtraTypes } from './types';
 
 import Handlebars from 'handlebars';
 
-import lookupDefinitions from '@polkadot/types/augment/lookup/definitions';
-import * as defaultDefs from '@polkadot/types/interfaces/definitions';
-import { unwrapStorageSi } from '@polkadot/types/primitive/StorageKey';
-import { stringCamelCase } from '@polkadot/util';
+import lookupDefinitions from '@5ire/types/augment/lookup/definitions';
+import * as defaultDefs from '@5ire/types/interfaces/definitions';
+import { unwrapStorageSi } from '@5ire/types/primitive/StorageKey';
+import { stringCamelCase } from '@5ire/util';
 
 import { compareName, createImports, formatType, getSimilarTypes, initMeta, readTemplate, setImports, TypeImports, writeFile } from '../util';
 import { ModuleTypes } from '../util/imports';
@@ -69,8 +69,8 @@ const generateForMetaTemplate = Handlebars.compile(template);
 function generateForMeta (registry: Registry, meta: Metadata, dest: string, extraTypes: ExtraTypes, isStrict: boolean): void {
   writeFile(dest, (): string => {
     const allTypes: ExtraTypes = {
-      '@polkadot/types/augment': { lookup: lookupDefinitions },
-      '@polkadot/types/interfaces': defaultDefs,
+      '@5ire/types/augment': { lookup: lookupDefinitions },
+      '@5ire/types/interfaces': defaultDefs,
       ...extraTypes
     };
     const imports = createImports(allTypes);
@@ -115,7 +115,7 @@ function generateForMeta (registry: Registry, meta: Metadata, dest: string, extr
       modules,
       types: [
         ...Object.keys(imports.localTypes).sort().map((packagePath): { file: string; types: string[] } => ({
-          file: packagePath.replace('@polkadot/types/augment', '@polkadot/types'),
+          file: packagePath.replace('@5ire/types/augment', '@5ire/types'),
           types: Object.keys(imports.localTypes[packagePath])
         })),
         {

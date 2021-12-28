@@ -1,14 +1,14 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Metadata } from '@polkadot/types/metadata/Metadata';
+import type { Metadata } from '@5ire/types/metadata/Metadata';
 import type { ExtraTypes } from './types';
 
 import Handlebars from 'handlebars';
 
-import lookupDefinitions from '@polkadot/types/augment/lookup/definitions';
-import * as defaultDefs from '@polkadot/types/interfaces/definitions';
-import { stringCamelCase } from '@polkadot/util';
+import lookupDefinitions from '@5ire/types/augment/lookup/definitions';
+import * as defaultDefs from '@5ire/types/interfaces/definitions';
+import { stringCamelCase } from '@5ire/util';
 
 import { compareName, createImports, formatType, initMeta, readTemplate, setImports, writeFile } from '../util';
 
@@ -19,8 +19,8 @@ const generateForMetaTemplate = Handlebars.compile(template);
 function generateForMeta (meta: Metadata, dest: string, extraTypes: ExtraTypes, isStrict: boolean): void {
   writeFile(dest, (): string => {
     const allTypes = {
-      '@polkadot/types/augment': { lookup: lookupDefinitions },
-      '@polkadot/types/interfaces': defaultDefs,
+      '@5ire/types/augment': { lookup: lookupDefinitions },
+      '@5ire/types/interfaces': defaultDefs,
       ...extraTypes
     };
     const imports = createImports(allTypes);
@@ -57,7 +57,7 @@ function generateForMeta (meta: Metadata, dest: string, extraTypes: ExtraTypes, 
       modules,
       types: [
         ...Object.keys(imports.localTypes).sort().map((packagePath): { file: string; types: string[] } => ({
-          file: packagePath.replace('@polkadot/types/augment', '@polkadot/types'),
+          file: packagePath.replace('@5ire/types/augment', '@5ire/types'),
           types: Object.keys(imports.localTypes[packagePath])
         })),
         {

@@ -2254,7 +2254,7 @@ Changes:
   - In addition to this support, the `Signer` interface has deprecated the `sign` method and replaced it with `signPayload`
   - Support for the `sign` interfaces (API detection and calling when `signPayload` is not available) will be removed in subsequent versions.
 
-- The `ContractsAbi` type has been moved from `@polkadot/types` to `import { Abi } from '@polkadot/api-contract`. This paves the way for an enhanced contracts interface, instead of dealing with low-level API calls.
+- The `ContractsAbi` type has been moved from `@polkadot/types` to `import { Abi } from '@5ire/api-contract`. This paves the way for an enhanced contracts interface, instead of dealing with low-level API calls.
 
 
 ## 0.81.1 Jun 14, 2019

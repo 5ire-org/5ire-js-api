@@ -1,12 +1,12 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Codec } from '@polkadot/types/types';
+import type { Codec } from '@5ire/types/types';
 import type { ApiOptions, DecorateFn } from '../types';
 
 import { from, Observable } from 'rxjs';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import { ApiBase } from '../base';
 

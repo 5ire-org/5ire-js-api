@@ -3,14 +3,14 @@
 
 import type { SubmittableExtrinsic } from '@5ire/api/submittable/types';
 import type { ApiTypes, DecorateMethod } from '@5ire/api/types';
-import type { EventRecord } from '@polkadot/types/interfaces';
-import type { AnyJson, ISubmittableResult } from '@polkadot/types/types';
+import type { EventRecord } from '@5ire/types/interfaces';
+import type { AnyJson, ISubmittableResult } from '@5ire/types/types';
 import type { AbiConstructor, BlueprintOptions } from '../types';
 import type { MapConstructorExec } from './types';
 
 import { SubmittableResult } from '@5ire/api';
 import { ApiBase } from '@5ire/api/base';
-import { assert, BN_ZERO, compactAddLength, isUndefined, isWasm, u8aToU8a } from '@polkadot/util';
+import { assert, BN_ZERO, compactAddLength, isUndefined, isWasm, u8aToU8a } from '@5ire/util';
 
 import { Abi } from '../Abi';
 import { applyOnEvent } from '../util';

@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountId, Balance, EraIndex, RewardPoint } from '@polkadot/types/interfaces';
-import type { PalletStakingExposure, PalletStakingRewardDestination, PalletStakingStakingLedger, PalletStakingValidatorPrefs } from '@polkadot/types/lookup';
-import type { BN } from '@polkadot/util';
+import type { AccountId, Balance, EraIndex, RewardPoint } from '@5ire/types/interfaces';
+import type { PalletStakingExposure, PalletStakingRewardDestination, PalletStakingStakingLedger, PalletStakingValidatorPrefs } from '@5ire/types/lookup';
+import type { BN } from '@5ire/util';
 import type { DeriveSessionIndexes } from '../session/types';
 
 export type DeriveEraValPoints = Record<string, RewardPoint>;

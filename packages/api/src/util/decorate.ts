@@ -1,10 +1,10 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AnyFunction } from '@polkadot/types/types';
+import type { AnyFunction } from '@5ire/types/types';
 import type { ApiTypes, DecorateMethod, MethodResult } from '../types';
 
-import { lazyDeriveSection } from '@polkadot/api-derive';
+import { lazyDeriveSection } from '@5ire/api-derive';
 
 type AnyDeriveSection = Record<string, AnyFunction>;
 

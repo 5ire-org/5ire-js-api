@@ -3,12 +3,12 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { AccountId, AccountIndex, Address } from '@polkadot/types/interfaces';
+import type { AccountId, AccountIndex, Address } from '@5ire/types/interfaces';
 import type { AccountIdAndIndex } from '../types';
 
 import { map, of } from 'rxjs';
 
-import { isU8a } from '@polkadot/util';
+import { isU8a } from '@5ire/util';
 import { decodeAddress } from '@polkadot/util-crypto';
 
 import { memo } from '../util';

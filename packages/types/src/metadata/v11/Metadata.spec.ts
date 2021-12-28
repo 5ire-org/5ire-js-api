@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import substrateData from '@polkadot/types-support/metadata/v11/substrate-hex';
-import substrateJson from '@polkadot/types-support/metadata/v11/substrate-json.json';
+import substrateData from '@5ire/types-support/metadata/v11/substrate-hex';
+import substrateJson from '@5ire/types-support/metadata/v11/substrate-json.json';
 
 import { testMeta } from '../util/testUtil';
 

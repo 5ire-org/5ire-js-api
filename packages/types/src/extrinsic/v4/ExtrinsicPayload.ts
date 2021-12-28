@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { SignOptions } from '@polkadot/keyring/types';
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@5ire/util/types';
 import type { ExtrinsicEra } from '../../interfaces/extrinsics';
 import type { AssetId, Balance, Hash, Index } from '../../interfaces/runtime';
 import type { ExtrinsicPayloadValue, IKeyringPair, Registry } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import { Compact } from '../../codec/Compact';
 import { Enum } from '../../codec/Enum';

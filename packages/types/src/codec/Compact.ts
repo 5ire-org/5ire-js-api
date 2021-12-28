@@ -1,12 +1,12 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { BN } from '@polkadot/util';
-import type { HexString } from '@polkadot/util/types';
+import type { BN } from '@5ire/util';
+import type { HexString } from '@5ire/util/types';
 import type { CodecHash, Hash } from '../interfaces';
 import type { AnyJson, AnyNumber, Constructor, ICompact, INumber, Registry } from '../types';
 
-import { compactFromU8a, compactToU8a, isBigInt, isBn, isNumber, isString } from '@polkadot/util';
+import { compactFromU8a, compactToU8a, isBigInt, isBn, isNumber, isString } from '@5ire/util';
 
 import { typeToConstructor } from './utils';
 

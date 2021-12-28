@@ -9,7 +9,7 @@
   "homepage": "https://github.com/5ire-org/5ire-js-api/tree/master/packages/types-support#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/types-support",
+  "name": "@5ire/types-support",
   "repository": {
     "directory": "packages/types-support",
     "type": "git",
@@ -20,10 +20,10 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "6.7.3-1",
+  "version": "0.2.2",
   "main": "index.js",
   "dependencies": {
-    "@babel/runtime": "^7.16.0",
-    "@polkadot/util": "^7.8.2"
+    "@5ire/util": "^0.1.4",
+    "@babel/runtime": "^7.16.0"
   }
 }

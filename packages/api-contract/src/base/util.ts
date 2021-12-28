@@ -4,12 +4,12 @@
 import type { SubmittableResult } from '@5ire/api';
 import type { SubmittableExtrinsic } from '@5ire/api/submittable/types';
 import type { ApiTypes } from '@5ire/api/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { AbiConstructor, BlueprintOptions } from '../types';
 import type { BlueprintDeploy, ContractGeneric } from './types';
 
-import { Bytes } from '@polkadot/types';
-import { compactAddLength, u8aToU8a } from '@polkadot/util';
+import { Bytes } from '@5ire/types';
+import { compactAddLength, u8aToU8a } from '@5ire/util';
 import { randomAsU8a } from '@polkadot/util-crypto';
 
 import { extractOptions, isOptions } from '../util';

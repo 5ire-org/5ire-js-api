@@ -5,7 +5,7 @@
 
 import type { RuntimeVersion } from './types';
 
-import rpc from '@polkadot/types-support/json/RuntimeVersion.002.json';
+import rpc from '@5ire/types-support/json/RuntimeVersion.002.json';
 
 import { TypeRegistry } from '../../create';
 

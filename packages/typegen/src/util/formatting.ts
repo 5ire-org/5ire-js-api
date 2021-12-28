@@ -3,14 +3,14 @@
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import type { TypeDef } from '@polkadot/types/create/types';
-import type { Registry } from '@polkadot/types/types';
+import type { TypeDef } from '@5ire/types/create/types';
+import type { Registry } from '@5ire/types/types';
 
 import Handlebars from 'handlebars';
 
-import { getTypeDef, paramsNotation } from '@polkadot/types/create';
-import { TypeDefInfo } from '@polkadot/types/create/types';
-import { isString, stringify } from '@polkadot/util';
+import { getTypeDef, paramsNotation } from '@5ire/types/create';
+import { TypeDefInfo } from '@5ire/types/create/types';
+import { isString, stringify } from '@5ire/util';
 
 import { readTemplate } from './file';
 import { ModuleTypes, setImports, TypeImports } from './imports';
@@ -39,7 +39,7 @@ Handlebars.registerHelper({
     const { imports, types } = this as unknown as This;
     const defs = [
       {
-        file: '@polkadot/types',
+        file: '@5ire/types',
         types: [
           ...Object.keys(imports.codecTypes).filter((name) => !NO_CODEC.includes(name)),
           ...Object.keys(imports.extrinsicTypes),
@@ -49,7 +49,7 @@ Handlebars.registerHelper({
         ]
       },
       {
-        file: '@polkadot/types/types',
+        file: '@5ire/types/types',
         types: Object.keys(imports.typesTypes)
       },
       ...types

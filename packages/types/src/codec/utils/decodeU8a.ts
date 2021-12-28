@@ -3,7 +3,7 @@
 
 import type { Codec, Constructor, Registry } from '../../types';
 
-import { u8aToHex } from '@polkadot/util';
+import { u8aToHex } from '@5ire/util';
 
 function formatFailure (error: Error, type: string, u8a: Uint8Array, key?: string): string {
   return `decodeU8a: failed at ${u8aToHex(u8a)}…${key ? ` on ${key}` : ''}${type ? `: ${type}` : ''}:: ${error.message}`;

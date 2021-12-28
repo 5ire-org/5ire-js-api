@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { ApiTypes, DecorateMethod } from '@5ire/api/types';
-import type { AnyJson, Registry } from '@polkadot/types/types';
+import type { AnyJson, Registry } from '@5ire/types/types';
 
 import { ApiBase } from '@5ire/api/base';
-import { assert, isFunction } from '@polkadot/util';
+import { assert, isFunction } from '@5ire/util';
 
 import { Abi } from '../Abi';
 

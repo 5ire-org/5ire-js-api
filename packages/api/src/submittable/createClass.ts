@@ -4,14 +4,14 @@
 /* eslint-disable no-dupe-class-members */
 
 import type { Observable, OperatorFunction } from 'rxjs';
-import type { Address, ApplyExtrinsicResult, Call, Extrinsic, ExtrinsicEra, ExtrinsicStatus, Hash, Header, Index, RuntimeDispatchInfo } from '@polkadot/types/interfaces';
-import type { Callback, Codec, Constructor, IKeyringPair, ISubmittableResult, Registry, SignatureOptions } from '@polkadot/types/types';
+import type { Address, ApplyExtrinsicResult, Call, Extrinsic, ExtrinsicEra, ExtrinsicStatus, Hash, Header, Index, RuntimeDispatchInfo } from '@5ire/types/interfaces';
+import type { Callback, Codec, Constructor, IKeyringPair, ISubmittableResult, Registry, SignatureOptions } from '@5ire/types/types';
 import type { ApiInterfaceRx, ApiTypes, SignerResult } from '../types';
 import type { AddressOrPair, SignerOptions, SubmittableDryRunResult, SubmittableExtrinsic, SubmittablePaymentResult, SubmittableResultResult, SubmittableResultSubscription, SubmittableThis } from './types';
 
 import { catchError, first, map, mapTo, mergeMap, of, switchMap, tap } from 'rxjs';
 
-import { assert, isBn, isFunction, isNumber, isString, isU8a, objectSpread } from '@polkadot/util';
+import { assert, isBn, isFunction, isNumber, isString, isU8a, objectSpread } from '@5ire/util';
 
 import { ApiBase } from '../base';
 import { filterEvents, isKeyringPair } from '../util';

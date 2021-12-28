@@ -1,6 +1,6 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { logger } from '@polkadot/util';
+import { logger } from '@5ire/util';
 
-export const l = logger('api/util');
+export const l: any = logger('api/util');

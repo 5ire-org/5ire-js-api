@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { ApiRx } from '@5ire/api';
-import type { AnyJson } from '@polkadot/types/types';
+import type { AnyJson } from '@5ire/types/types';
 
 import { decorateMethodRx } from '@5ire/api';
 

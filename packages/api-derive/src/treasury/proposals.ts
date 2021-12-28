@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option } from '@polkadot/types';
-import type { ProposalIndex } from '@polkadot/types/interfaces';
-import type { PalletTreasuryProposal } from '@polkadot/types/lookup';
+import type { Option } from '@5ire/types';
+import type { ProposalIndex } from '@5ire/types/interfaces';
+import type { PalletTreasuryProposal } from '@5ire/types/lookup';
 import type { DeriveCollectiveProposal, DeriveTreasuryProposal, DeriveTreasuryProposals } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

@@ -3,7 +3,7 @@
 
 import type { Registry } from '../types';
 
-import { isHex, isU8a, u8aToU8a } from '@polkadot/util';
+import { isHex, isU8a, u8aToU8a } from '@5ire/util';
 
 import { MetadataVersioned } from './MetadataVersioned';
 

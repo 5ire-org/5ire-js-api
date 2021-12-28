@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { isObject } from '@polkadot/util';
+import { isObject } from '@5ire/util';
 
 function compareSetArray (a: Set<unknown>, b: any[]): boolean {
   // equal number of entries and each entry in the array should match

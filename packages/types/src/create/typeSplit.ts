@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { assert } from '@polkadot/util';
+import { assert } from '@5ire/util';
 
 function isNotNested (...counters: number[]): boolean {
   return !counters.some((counter): boolean => counter !== 0);

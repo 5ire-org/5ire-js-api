@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { Bytes } from '@polkadot/types';
-import { Registry } from '@polkadot/types/types';
+import { Bytes } from '@5ire/types';
+import { Registry } from '@5ire/types/types';
 
 export class BytesFactory {
   #registry: Registry;

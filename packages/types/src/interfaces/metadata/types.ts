@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Enum, Option, PortableRegistry, Struct, Text, Type, Vec, bool, u8 } from '@polkadot/types';
-import type { Si1Field, Si1LookupTypeId, Si1Type, SiLookupTypeId } from '@polkadot/types/interfaces/scaleInfo';
+import type { Bytes, Enum, Option, PortableRegistry, Struct, Text, Type, Vec, bool, u8 } from '@5ire/types';
+import type { Si1Field, Si1LookupTypeId, Si1Type, SiLookupTypeId } from '@5ire/types/interfaces/scaleInfo';
 
 /** @name ErrorMetadataLatest */
 export interface ErrorMetadataLatest extends ErrorMetadataV14 {}

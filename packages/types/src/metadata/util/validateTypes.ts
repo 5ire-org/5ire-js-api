@@ -3,7 +3,7 @@
 
 import type { Registry } from '../../types';
 
-import { logger } from '@polkadot/util';
+import { logger } from '@5ire/util';
 
 import { extractTypes } from './extractTypes';
 import { flattenUniq } from './flattenUniq';

@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observer, TeardownLogic } from 'rxjs';
-import type { Memoized } from '@polkadot/util/types';
+import type { Memoized } from '@5ire/util/types';
 
 import { Observable } from 'rxjs';
 
-import { memoize } from '@polkadot/util';
+import { memoize } from '@5ire/util';
 
 import { drr } from './drr';
 

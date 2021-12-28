@@ -3,13 +3,13 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { StorageKey } from '@polkadot/types';
-import type { BN } from '@polkadot/util';
+import type { StorageKey } from '@5ire/types';
+import type { BN } from '@5ire/util';
 import type { DeriveContributions } from '../types';
 
 import { BehaviorSubject, combineLatest, EMPTY, map, of, startWith, switchMap, tap, toArray } from 'rxjs';
 
-import { arrayFlatten, isFunction } from '@polkadot/util';
+import { arrayFlatten, isFunction } from '@5ire/util';
 
 import { memo } from '../util';
 import { extractContributed } from './util';

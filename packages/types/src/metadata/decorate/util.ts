@@ -3,7 +3,7 @@
 
 import type { Text } from '../../primitive';
 
-import { stringCamelCase, stringLowerFirst } from '@polkadot/util';
+import { stringCamelCase, stringLowerFirst } from '@5ire/util';
 
 export function objectNameFirstLower ({ name }: { name: string | Text }): string {
   return stringLowerFirst(name);

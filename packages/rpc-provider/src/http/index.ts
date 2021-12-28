@@ -3,7 +3,7 @@
 
 import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback, ProviderInterfaceEmitCb, ProviderInterfaceEmitted } from '../types';
 
-import { assert, logger } from '@polkadot/util';
+import { assert, logger } from '@5ire/util';
 import { fetch } from '@polkadot/x-fetch';
 
 import { RpcCoder } from '../coder';
@@ -25,7 +25,7 @@ const l = logger('api-http');
  *
  * ```javascript
  * import Api from '@5ire/api/promise';
- * import { HttpProvider } from '@polkadot/rpc-provider';
+ * import { HttpProvider } from '@5ire/rpc-provider';
  *
  * const provider = new HttpProvider('http://127.0.0.1:9933');
  * const api = new Api(provider);

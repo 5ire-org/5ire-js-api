@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { AnyFunction, Callback, Codec } from '@polkadot/types/types';
+import type { AnyFunction, Callback, Codec } from '@5ire/types/types';
 
 export type Push<T extends readonly unknown[], V> = [...T, V]
 

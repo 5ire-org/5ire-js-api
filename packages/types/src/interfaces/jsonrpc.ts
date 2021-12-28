@@ -3,7 +3,7 @@
 
 import type { DefinitionRpcExt, DefinitionRpcSub } from '../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 import * as definitions from './definitions';
 

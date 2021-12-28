@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { IsEvent } from '@polkadot/types/metadata/decorate/types';
-import type { AnyTuple } from '@polkadot/types/types';
+import type { IsEvent } from '@5ire/types/metadata/decorate/types';
+import type { AnyTuple } from '@5ire/types/types';
 import type { ApiTypes } from './base';
 
 // In events we don't need the ApiType, however add it for consistency

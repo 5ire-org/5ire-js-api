@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // augment the registry
-import '@polkadot/types/augment';
+import '@5ire/types/augment';
 
 export * from '../create/types';
 export * from './calls';

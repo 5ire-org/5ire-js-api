@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Bytes, Option } from '@polkadot/types';
-import type { AccountId, Balance, BlockNumber, PreimageStatus, Proposal, ReferendumInfoTo239, Tally } from '@polkadot/types/interfaces';
-import type { PalletDemocracyReferendumInfo, PalletDemocracyReferendumStatus, PalletDemocracyVoteThreshold } from '@polkadot/types/lookup';
-import type { ITuple } from '@polkadot/types/types';
+import type { Bytes, Option } from '@5ire/types';
+import type { AccountId, Balance, BlockNumber, PreimageStatus, Proposal, ReferendumInfoTo239, Tally } from '@5ire/types/interfaces';
+import type { PalletDemocracyReferendumInfo, PalletDemocracyReferendumStatus, PalletDemocracyVoteThreshold } from '@5ire/types/lookup';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveProposalImage, DeriveReferendum, DeriveReferendumVote, DeriveReferendumVotes, DeriveReferendumVoteState } from '../types';
 
-import { BN, bnSqrt } from '@polkadot/util';
+import { BN, bnSqrt } from '@5ire/util';
 
 type PreimageInfo = [Bytes, AccountId, Balance, BlockNumber];
 type OldPreimage = ITuple<PreimageInfo>;

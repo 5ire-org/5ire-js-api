@@ -6,7 +6,7 @@
 
 import type { Definitions } from '../../types';
 
-import { objectSpread } from '@polkadot/util';
+import { objectSpread } from '@5ire/util';
 
 // The runtime definition of SessionKeys are passed as a Trait to session
 // Defined in `node/runtime/src/lib.rs` as follow

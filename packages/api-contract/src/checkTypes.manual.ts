@@ -3,7 +3,7 @@
 
 // Simple non-runnable checks to test type definitions in the editor itself
 
-import type { AnyJson } from '@polkadot/types/types';
+import type { AnyJson } from '@5ire/types/types';
 
 import { ApiPromise } from '@5ire/api';
 import { createTestPairs, TestKeyringMap } from '@polkadot/keyring/testingPairs';

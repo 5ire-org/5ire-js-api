@@ -1,12 +1,12 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Metadata } from '@polkadot/types/metadata/Metadata';
+import type { Metadata } from '@5ire/types/metadata/Metadata';
 import type { ExtraTypes } from './types';
 
 import Handlebars from 'handlebars';
 
-import { stringCamelCase } from '@polkadot/util';
+import { stringCamelCase } from '@5ire/util';
 
 import { compareName, createImports, initMeta, readTemplate, writeFile } from '../util';
 

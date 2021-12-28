@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { stringToU8a, u8aConcat } from '@polkadot/util';
+import { stringToU8a, u8aConcat } from '@5ire/util';
 
 import { TypeRegistry } from '../create';
 import { Text, Type } from '.';

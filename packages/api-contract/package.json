@@ -9,7 +9,7 @@
   "homepage": "https://github.com/5ire-org/5ire-js-api/tree/master/packages/api-contract#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/api-contract",
+  "name": "@5ire/api-contract",
   "repository": {
     "directory": "packages/api-contract",
     "type": "git",
@@ -20,13 +20,13 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "6.7.3-1",
+  "version": "0.2.2",
   "main": "index.js",
   "dependencies": {
-    "@5ire/api": "0.2.0",
+    "@5ire/api": "0.2.2",
+    "@5ire/types": "0.2.2",
+    "@5ire/util": "^0.1.4",
     "@babel/runtime": "^7.16.0",
-    "@polkadot/types": "6.7.3-1",
-    "@polkadot/util": "^7.8.2",
     "rxjs": "^7.4.0"
   }
 }

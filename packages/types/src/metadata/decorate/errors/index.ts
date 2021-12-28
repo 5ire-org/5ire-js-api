@@ -7,7 +7,7 @@ import type { Text, u8 } from '../../../primitive';
 import type { Registry } from '../../../types';
 import type { Errors, IsError } from '../types';
 
-import { lazyMethod, objectSpread, stringCamelCase } from '@polkadot/util';
+import { lazyMethod, objectSpread, stringCamelCase } from '@5ire/util';
 
 import { lazyVariants } from '../../../create/lazy';
 import { objectNameToString } from '../util';

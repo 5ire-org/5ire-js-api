@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/types-support authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { detectPackage } from '@polkadot/util';
+import { detectPackage } from '@5ire/util';
 
 import { packageInfo } from './packageInfo';
 

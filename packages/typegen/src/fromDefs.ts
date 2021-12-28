@@ -4,7 +4,7 @@
 import path from 'path';
 import yargs from 'yargs';
 
-import * as substrateDefs from '@polkadot/types/interfaces/definitions';
+import * as substrateDefs from '@5ire/types/interfaces/definitions';
 
 import { generateInterfaceTypes } from './generate/interfaceRegistry';
 import { generateTsDef } from './generate/tsDef';
@@ -46,7 +46,7 @@ export function main (): void {
     }, {});
 
   const allDefs = {
-    '@polkadot/types/interfaces': filteredBase,
+    '@5ire/types/interfaces': filteredBase,
     [pkg]: userDefs
   };
 

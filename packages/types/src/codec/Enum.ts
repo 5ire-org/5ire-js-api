@@ -1,11 +1,11 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { HexString } from '@polkadot/util/types';
+import type { HexString } from '@5ire/util/types';
 import type { CodecHash, Hash } from '../interfaces';
 import type { AnyJson, Codec, Constructor, IEnum, Registry } from '../types';
 
-import { assert, hexToU8a, isHex, isNumber, isObject, isString, isU8a, isUndefined, objectProperties, stringCamelCase, stringify, stringUpperFirst, u8aConcat, u8aToHex } from '@polkadot/util';
+import { assert, hexToU8a, isHex, isNumber, isObject, isString, isU8a, isUndefined, objectProperties, stringCamelCase, stringify, stringUpperFirst, u8aConcat, u8aToHex } from '@5ire/util';
 
 import { Null } from '../primitive/Null';
 import { mapToTypeMap, typesToMap } from './utils';

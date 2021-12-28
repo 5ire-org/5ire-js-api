@@ -3,9 +3,9 @@
 
 import type { SubmittableExtrinsic } from '@5ire/api/submittable/types';
 import type { ApiTypes, DecorateMethod } from '@5ire/api/types';
-import type { Bytes } from '@polkadot/types';
-import type { AccountId, EventRecord, Weight } from '@polkadot/types/interfaces';
-import type { AnyJson, ISubmittableResult } from '@polkadot/types/types';
+import type { Bytes } from '@5ire/types';
+import type { AccountId, EventRecord, Weight } from '@5ire/types/interfaces';
+import type { AnyJson, ISubmittableResult } from '@5ire/types/types';
 import type { AbiMessage, ContractCallOutcome, ContractOptions, DecodedEvent } from '../types';
 import type { ContractCallResult, ContractCallSend, ContractQuery, ContractTx, MapMessageQuery, MapMessageTx } from './types';
 
@@ -13,7 +13,7 @@ import { map } from 'rxjs';
 
 import { SubmittableResult } from '@5ire/api';
 import { ApiBase } from '@5ire/api/base';
-import { assert, BN, BN_HUNDRED, BN_ONE, BN_ZERO, bnToBn, isFunction, isUndefined, logger } from '@polkadot/util';
+import { assert, BN, BN_HUNDRED, BN_ONE, BN_ZERO, bnToBn, isFunction, isUndefined, logger } from '@5ire/util';
 
 import { Abi } from '../Abi';
 import { applyOnEvent, extractOptions, isOptions } from '../util';

@@ -7,7 +7,7 @@ import type { JsonRpcResponse, ProviderInterface, ProviderInterfaceCallback, Pro
 
 import EventEmitter from 'eventemitter3';
 
-import { assert, isChildClass, isNull, isUndefined, logger } from '@polkadot/util';
+import { assert, isChildClass, isNull, isUndefined, logger } from '@5ire/util';
 import { xglobal } from '@polkadot/x-global';
 import { WebSocket } from '@polkadot/x-ws';
 
@@ -66,7 +66,7 @@ function eraseRecord<T> (record: Record<string, T>, cb?: (item: T) => void): voi
  *
  * ```javascript
  * import Api from '@5ire/api/promise';
- * import { WsProvider } from '@polkadot/rpc-provider/ws';
+ * import { WsProvider } from '@5ire/rpc-provider/ws';
  *
  * const provider = new WsProvider('ws://127.0.0.1:9944');
  * const api = new Api(provider);

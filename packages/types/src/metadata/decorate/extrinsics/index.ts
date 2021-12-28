@@ -6,7 +6,7 @@ import type { PortableRegistry } from '../../../metadata';
 import type { CallFunction, Registry } from '../../../types';
 import type { Extrinsics } from '../types';
 
-import { lazyMethod, objectSpread, stringCamelCase } from '@polkadot/util';
+import { lazyMethod, objectSpread, stringCamelCase } from '@5ire/util';
 
 import { lazyVariants } from '../../../create/lazy';
 import { getSiName } from '../../util';

@@ -3,13 +3,13 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Raw, u32 } from '@polkadot/types';
-import type { Releases } from '@polkadot/types/interfaces';
-import type { InterfaceTypes } from '@polkadot/types/types';
+import type { Raw, u32 } from '@5ire/types';
+import type { Releases } from '@5ire/types/interfaces';
+import type { InterfaceTypes } from '@5ire/types/types';
 
 import { catchError, combineLatest, map, of, take } from 'rxjs';
 
-import { assert, compactFromU8a } from '@polkadot/util';
+import { assert, compactFromU8a } from '@5ire/util';
 
 // the order and types needs to map with the all array setup below
 type ExtractedQ = [Releases | null];

@@ -4,7 +4,7 @@
 import type { MetadataAll, MetadataLatest, MetadataV9, MetadataV10, MetadataV11, MetadataV12, MetadataV13, MetadataV14 } from '../interfaces/metadata';
 import type { AnyJson, Registry } from '../types';
 
-import { assert } from '@polkadot/util';
+import { assert } from '@5ire/util';
 
 import { Struct } from '../codec';
 import { toV10 } from './v9/toV10';

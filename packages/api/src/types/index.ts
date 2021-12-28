@@ -5,14 +5,14 @@
 import '@5ire/api/augment';
 
 import type { Observable } from 'rxjs';
-import type { DeriveCustom, ExactDerive } from '@polkadot/api-derive';
-import type { RpcInterface } from '@polkadot/rpc-core/types';
-import type { ProviderInterface, ProviderInterfaceEmitted } from '@polkadot/rpc-provider/types';
-import type { ExtDef } from '@polkadot/types/extrinsic/signedExtensions/types';
-import type { Hash, RuntimeVersion } from '@polkadot/types/interfaces';
-import type { Metadata } from '@polkadot/types/metadata';
-import type { CallFunction, DefinitionRpc, DefinitionRpcSub, RegisteredTypes, Registry, RegistryError, SignatureOptions, Signer } from '@polkadot/types/types';
-import type { BN } from '@polkadot/util';
+import type { DeriveCustom, ExactDerive } from '@5ire/api-derive';
+import type { RpcInterface } from '@5ire/rpc-core/types';
+import type { ProviderInterface, ProviderInterfaceEmitted } from '@5ire/rpc-provider/types';
+import type { ExtDef } from '@5ire/types/extrinsic/signedExtensions/types';
+import type { Hash, RuntimeVersion } from '@5ire/types/interfaces';
+import type { Metadata } from '@5ire/types/metadata';
+import type { CallFunction, DefinitionRpc, DefinitionRpcSub, RegisteredTypes, Registry, RegistryError, SignatureOptions, Signer } from '@5ire/types/types';
+import type { BN } from '@5ire/util';
 import type { ApiBase } from '../base';
 import type { DeriveAllSections } from '../util/decorate';
 import type { ApiTypes } from './base';
@@ -23,7 +23,7 @@ import type { DecoratedRpc } from './rpc';
 import type { QueryableStorage, QueryableStorageMulti } from './storage';
 import type { SubmittableExtrinsics } from './submittable';
 
-export { Signer, SignerResult } from '@polkadot/types/types';
+export { Signer, SignerResult } from '@5ire/types/types';
 export { ApiBase } from '../base';
 export * from '../submittable/types';
 export * from './base';

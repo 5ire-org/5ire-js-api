@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option, u32, Vec } from '@polkadot/types';
-import type { AccountId, BalanceOf } from '@polkadot/types/interfaces';
-import type { PalletSocietyBid } from '@polkadot/types/lookup';
+import type { Option, u32, Vec } from '@5ire/types';
+import type { AccountId, BalanceOf } from '@5ire/types/interfaces';
+import type { PalletSocietyBid } from '@5ire/types/lookup';
 import type { DeriveSociety } from '../types';
 
 import { map } from 'rxjs';

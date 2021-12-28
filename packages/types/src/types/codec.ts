@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { BN } from '@polkadot/util';
-import type { HexString } from '@polkadot/util/types';
+import type { BN } from '@5ire/util';
+import type { HexString } from '@5ire/util/types';
 import type { Hash } from '../interfaces/runtime';
 import type { InterfaceTypes, Registry } from './registry';
 

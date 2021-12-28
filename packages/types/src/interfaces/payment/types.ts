@@ -1,9 +1,9 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Option, Struct } from '@polkadot/types';
-import type { Balance, Weight } from '@polkadot/types/interfaces/runtime';
-import type { DispatchClass } from '@polkadot/types/interfaces/system';
+import type { Option, Struct } from '@5ire/types';
+import type { Balance, Weight } from '@5ire/types/interfaces/runtime';
+import type { DispatchClass } from '@5ire/types/interfaces/system';
 
 /** @name FeeDetails */
 export interface FeeDetails extends Struct {

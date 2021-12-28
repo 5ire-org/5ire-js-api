@@ -5,7 +5,7 @@ import type { Bytes } from '../primitive/Bytes';
 import type { Codec, Constructor, DetectCodec, Registry } from '../types';
 import type { CreateOptions } from './types';
 
-import { assert, isHex, isU8a, u8aEq, u8aToHex, u8aToU8a } from '@polkadot/util';
+import { assert, isHex, isU8a, u8aEq, u8aToHex, u8aToU8a } from '@5ire/util';
 
 import { Option } from '../codec/Option';
 import { createClass } from './createClass';

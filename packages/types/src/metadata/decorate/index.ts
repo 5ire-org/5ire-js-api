@@ -4,7 +4,7 @@
 import type { Registry } from '../../types';
 import type { DecoratedMeta } from './types';
 
-import { assert } from '@polkadot/util';
+import { assert } from '@5ire/util';
 
 import { Metadata } from '../Metadata';
 import { decorateConstants } from './constants';

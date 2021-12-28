@@ -6,7 +6,7 @@ import type { ChainProperties, CodecHash, DispatchErrorModule, Hash, MetadataLat
 import type { CallFunction, Codec, CodecHasher, Constructor, DetectCodec, DetectConstructor, RegisteredTypes, Registry, RegistryError, RegistryTypes } from '../types';
 import type { CreateOptions, TypeDef } from './types';
 
-import { assert, assertReturn, BN_ZERO, formatBalance, isFunction, isString, isU8a, lazyMethod, logger, objectSpread, stringCamelCase, stringify } from '@polkadot/util';
+import { assert, assertReturn, BN_ZERO, formatBalance, isFunction, isString, isU8a, lazyMethod, logger, objectSpread, stringCamelCase, stringify } from '@5ire/util';
 import { blake2AsU8a } from '@polkadot/util-crypto';
 
 import { DoNotConstruct } from '../codec/DoNotConstruct';

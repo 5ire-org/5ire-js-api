@@ -3,12 +3,12 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { AccountId } from '@polkadot/types/interfaces';
+import type { AccountId } from '@5ire/types/interfaces';
 import type { Collective } from './types';
 
 import { of } from 'rxjs';
 
-import { isFunction } from '@polkadot/util';
+import { isFunction } from '@5ire/util';
 
 import { memo } from '../util';
 import { getInstance } from './getInstance';

@@ -3,7 +3,7 @@
 
 import type { TypeDef } from './types';
 
-import { assert, isNumber, isString, objectSpread } from '@polkadot/util';
+import { assert, isNumber, isString, objectSpread } from '@5ire/util';
 
 import { sanitize } from './sanitize';
 import { TypeDefInfo } from './types';

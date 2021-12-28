@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { AnyFunction } from '@polkadot/types/types';
+import type { AnyFunction } from '@5ire/types/types';
 
 import { lazyDeriveSection } from './util/lazy';
 import * as accounts from './accounts';

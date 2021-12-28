@@ -1,9 +1,9 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Enum, Option, Struct, Vec, bool, u32 } from '@polkadot/types';
-import type { AccountId, Balance, BlockNumber, Hash } from '@polkadot/types/interfaces/runtime';
-import type { ITuple } from '@polkadot/types/types';
+import type { Enum, Option, Struct, Vec, bool, u32 } from '@5ire/types';
+import type { AccountId, Balance, BlockNumber, Hash } from '@5ire/types/interfaces/runtime';
+import type { ITuple } from '@5ire/types/types';
 
 /** @name Bounty */
 export interface Bounty extends Struct {

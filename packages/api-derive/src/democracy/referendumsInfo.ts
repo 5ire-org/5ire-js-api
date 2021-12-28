@@ -3,15 +3,15 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option, Vec } from '@polkadot/types';
-import type { AccountId, ReferendumInfoTo239, Vote } from '@polkadot/types/interfaces';
-import type { PalletDemocracyReferendumInfo, PalletDemocracyVoteVoting } from '@polkadot/types/lookup';
-import type { BN } from '@polkadot/util';
+import type { Option, Vec } from '@5ire/types';
+import type { AccountId, ReferendumInfoTo239, Vote } from '@5ire/types/interfaces';
+import type { PalletDemocracyReferendumInfo, PalletDemocracyVoteVoting } from '@5ire/types/lookup';
+import type { BN } from '@5ire/util';
 import type { DeriveBalancesAccount, DeriveReferendum, DeriveReferendumVote, DeriveReferendumVotes } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';
 
-import { isFunction } from '@polkadot/util';
+import { isFunction } from '@5ire/util';
 
 import { memo } from '../util';
 import { calcVotes, getStatus, parseImage } from './util';

@@ -4,7 +4,7 @@
 import type { SiLookupTypeId, SiVariant } from '../interfaces';
 import type { PortableRegistry } from '../metadata';
 
-import { lazyMethod } from '@polkadot/util';
+import { lazyMethod } from '@5ire/util';
 
 interface TypeHolder {
   type: SiLookupTypeId

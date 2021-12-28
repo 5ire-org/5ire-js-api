@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { AnyFunction, Callback, DefinitionRpc } from '@polkadot/types/types';
+import type { AnyFunction, Callback, DefinitionRpc } from '@5ire/types/types';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { ApiTypes, PromiseResult, Push, RxResult, UnsubscribePromise } from './base';

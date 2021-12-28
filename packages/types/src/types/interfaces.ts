@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { SignOptions } from '@polkadot/keyring/types';
-import type { BN } from '@polkadot/util';
+import type { BN } from '@5ire/util';
 import type { FunctionMetadataLatest, StorageEntryMetadataLatest } from '../interfaces/metadata';
 import type { Hash } from '../interfaces/runtime';
 import type { AnyTuple, ArgsDef, Codec } from './codec';

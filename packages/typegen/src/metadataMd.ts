@@ -1,19 +1,19 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { MetadataLatest, SiLookupTypeId } from '@polkadot/types/interfaces';
-import type { PortableRegistry } from '@polkadot/types/metadata';
-import type { Codec, DefinitionRpcParam } from '@polkadot/types/types';
+import type { MetadataLatest, SiLookupTypeId } from '@5ire/types/interfaces';
+import type { PortableRegistry } from '@5ire/types/metadata';
+import type { Codec, DefinitionRpcParam } from '@5ire/types/types';
 
 import fs from 'fs';
 
-import { Metadata, TypeRegistry, Vec } from '@polkadot/types';
-import * as definitions from '@polkadot/types/interfaces/definitions';
-import { getStorage as getSubstrateStorage } from '@polkadot/types/metadata/decorate/storage/getStorage';
-import { Text } from '@polkadot/types/primitive';
-import { unwrapStorageType } from '@polkadot/types/primitive/StorageKey';
-import rpcdata from '@polkadot/types-support/metadata/static-substrate';
-import { stringCamelCase, stringLowerFirst } from '@polkadot/util';
+import { Metadata, TypeRegistry, Vec } from '@5ire/types';
+import * as definitions from '@5ire/types/interfaces/definitions';
+import { getStorage as getSubstrateStorage } from '@5ire/types/metadata/decorate/storage/getStorage';
+import { Text } from '@5ire/types/primitive';
+import { unwrapStorageType } from '@5ire/types/primitive/StorageKey';
+import rpcdata from '@5ire/types-support/metadata/static-substrate';
+import { stringCamelCase, stringLowerFirst } from '@5ire/util';
 
 interface SectionItem {
   link?: string;

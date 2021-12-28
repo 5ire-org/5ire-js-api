@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { CollatorId, ParaId } from '@polkadot/types/interfaces';
+import type { CollatorId, ParaId } from '@5ire/types/interfaces';
 import type { DeriveParachainActive, DeriveParachainFull, DeriveParachainInfo } from '../types';
 import type { Active, DidUpdate, Heads, ParaInfoResult, PendingSwap, RelayDispatchQueue, RetryQueue, SelectedThreads } from './types';
 

@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Bytes, Option } from '@polkadot/types';
-import type { BountyIndex, ProposalIndex } from '@polkadot/types/interfaces';
-import type { PalletBountiesBounty } from '@polkadot/types/lookup';
+import type { Bytes, Option } from '@5ire/types';
+import type { BountyIndex, ProposalIndex } from '@5ire/types/interfaces';
+import type { PalletBountiesBounty } from '@5ire/types/lookup';
 import type { DeriveBounties, DeriveCollectiveProposal } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

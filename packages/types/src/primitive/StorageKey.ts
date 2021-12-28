@@ -7,7 +7,7 @@ import type { SiLookupTypeId } from '../interfaces/scaleInfo';
 import type { AnyJson, AnyTuple, Codec, InterfaceTypes, IStorageKey, Registry } from '../types';
 import type { StorageEntry } from './types';
 
-import { assert, isFunction, isString, isU8a } from '@polkadot/util';
+import { assert, isFunction, isString, isU8a } from '@5ire/util';
 
 import { getSiName } from '../metadata/util';
 import { Bytes } from './Bytes';

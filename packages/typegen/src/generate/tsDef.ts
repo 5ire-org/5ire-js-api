@@ -1,17 +1,17 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { TypeDef } from '@polkadot/types/create/types';
-import type { Registry } from '@polkadot/types/types';
+import type { TypeDef } from '@5ire/types/create/types';
+import type { Registry } from '@5ire/types/types';
 import type { ModuleTypes } from '../util/imports';
 
 import Handlebars from 'handlebars';
 import path from 'path';
 
-import { getTypeDef, TypeRegistry } from '@polkadot/types/create';
-import { TypeDefInfo } from '@polkadot/types/create/types';
-import * as defaultDefinitions from '@polkadot/types/interfaces/definitions';
-import { assert, isString, stringCamelCase, stringify, stringUpperFirst } from '@polkadot/util';
+import { getTypeDef, TypeRegistry } from '@5ire/types/create';
+import { TypeDefInfo } from '@5ire/types/create/types';
+import * as defaultDefinitions from '@5ire/types/interfaces/definitions';
+import { assert, isString, stringCamelCase, stringify, stringUpperFirst } from '@5ire/util';
 
 import { createImports, exportInterface, exportType, formatType, readTemplate, setImports, TypeImports, writeFile } from '../util';
 
@@ -272,7 +272,7 @@ export function generateTsDefFor (registry: Registry, importDefinitions: { [impo
     name: defName,
     types: [
       ...Object.keys(imports.localTypes).sort().map((packagePath): { file: string; types: string[] } => ({
-        file: packagePath.replace('@polkadot/types/augment', '@polkadot/types'),
+        file: packagePath.replace('@5ire/types/augment', '@5ire/types'),
         types: Object.keys(imports.localTypes[packagePath])
       }))
     ]
@@ -305,8 +305,8 @@ export function generateTsDef (importDefinitions: { [importPath: string]: Record
 /** @internal */
 export function generateDefaultTsDef (): void {
   generateTsDef(
-    { '@polkadot/types/interfaces': defaultDefinitions },
+    { '@5ire/types/interfaces': defaultDefinitions },
     'packages/types/src/interfaces',
-    '@polkadot/types/interfaces'
+    '@5ire/types/interfaces'
   );
 }
