@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { Callback, Codec } from '@polkadot/types/types';
+import type { Callback, Codec } from '@5ire/types/types';
 import type { ApiOptions, DecorateFn, DecorateMethodOptions, ObsInnerType, StorageEntryPromiseOverloads, UnsubscribePromise, VoidFn } from '../types';
 
 import { catchError, EMPTY, Subscription, tap } from 'rxjs';

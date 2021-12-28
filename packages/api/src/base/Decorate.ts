@@ -2,23 +2,23 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { DeriveCustom } from '@polkadot/api-derive';
-import type { RpcInterface } from '@polkadot/rpc-core/types';
-import type { Option, Raw, StorageKey, Text, u64 } from '@polkadot/types';
-import type { Call, Hash, RuntimeVersion } from '@polkadot/types/interfaces';
-import type { DecoratedMeta } from '@polkadot/types/metadata/decorate/types';
-import type { StorageEntry } from '@polkadot/types/primitive/types';
-import type { AnyFunction, AnyTuple, CallFunction, Codec, DefinitionRpc, DefinitionRpcSub, DetectCodec, IMethod, IStorageKey, Registry, RegistryError, RegistryTypes } from '@polkadot/types/types';
+import type { DeriveCustom } from '@5ire/api-derive';
+import type { RpcInterface } from '@5ire/rpc-core/types';
+import type { Option, Raw, StorageKey, Text, u64 } from '@5ire/types';
+import type { Call, Hash, RuntimeVersion } from '@5ire/types/interfaces';
+import type { DecoratedMeta } from '@5ire/types/metadata/decorate/types';
+import type { StorageEntry } from '@5ire/types/primitive/types';
+import type { AnyFunction, AnyTuple, CallFunction, Codec, DefinitionRpc, DefinitionRpcSub, DetectCodec, IMethod, IStorageKey, Registry, RegistryError, RegistryTypes } from '@5ire/types/types';
 import type { SubmittableExtrinsic } from '../submittable/types';
 import type { ApiDecoration, ApiInterfaceRx, ApiOptions, ApiTypes, AugmentedQuery, DecoratedErrors, DecoratedEvents, DecoratedRpc, DecorateMethod, GenericStorageEntryFunction, PaginationOptions, QueryableConsts, QueryableStorage, QueryableStorageEntry, QueryableStorageEntryAt, QueryableStorageMulti, QueryableStorageMultiArg, SubmittableExtrinsicFunction, SubmittableExtrinsics } from '../types';
 import type { VersionedRegistry } from './types';
 
 import { BehaviorSubject, combineLatest, from, map, of, switchMap, tap, toArray } from 'rxjs';
 
-import { ExactDerive, getAvailableDerives } from '@polkadot/api-derive';
-import { memo, RpcCore } from '@polkadot/rpc-core';
-import { WsProvider } from '@polkadot/rpc-provider';
-import { expandMetadata, Metadata, TypeRegistry, unwrapStorageType } from '@polkadot/types';
+import { ExactDerive, getAvailableDerives } from '@5ire/api-derive';
+import { memo, RpcCore } from '@5ire/rpc-core';
+import { WsProvider } from '@5ire/rpc-provider';
+import { expandMetadata, Metadata, TypeRegistry, unwrapStorageType } from '@5ire/types';
 import { arrayChunk, arrayFlatten, assert, BN, BN_ZERO, compactStripLength, lazyMethod, lazyMethods, logger, objectSpread, u8aToHex } from '@5ire/util';
 
 import { createSubmittable } from '../submittable';

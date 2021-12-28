@@ -5,7 +5,7 @@
 
 import type { ExtrinsicStatus } from './types';
 
-import rpc from '@polkadot/types-support/json/ExtrinsicStatus.001.json';
+import rpc from '@5ire/types-support/json/ExtrinsicStatus.001.json';
 
 import { TypeRegistry } from '../../create';
 

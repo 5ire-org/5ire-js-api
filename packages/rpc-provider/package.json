@@ -9,7 +9,7 @@
   "homepage": "https://github.com/5ire-org/5ire-js-api/tree/master/packages/rpc-provider#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/rpc-provider",
+  "name": "@5ire/rpc-provider",
   "repository": {
     "directory": "packages/rpc-provider",
     "type": "git",
@@ -20,12 +20,12 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "6.7.3-1",
+  "version": "0.2.2",
   "main": "index.js",
   "dependencies": {
+    "@5ire/types": "0.2.2",
     "@5ire/util": "^0.1.4",
     "@babel/runtime": "^7.16.0",
-    "@polkadot/types": "6.7.3-1",
     "@polkadot/util-crypto": "^7.8.2",
     "@polkadot/x-fetch": "^7.8.2",
     "@polkadot/x-global": "^7.8.2",
@@ -33,8 +33,8 @@
     "eventemitter3": "^4.0.7"
   },
   "devDependencies": {
+    "@5ire/types": "0.2.2",
     "@polkadot/keyring": "^7.8.2",
-    "@polkadot/types": "6.7.3-1",
     "mock-socket": "^9.0.7",
     "nock": "^13.1.4"
   }

@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Enum, Struct, Text, Vec, u256 } from '@polkadot/types';
-import type { H160, H256 } from '@polkadot/types/interfaces/runtime';
+import type { Bytes, Enum, Struct, Text, Vec, u256 } from '@5ire/types';
+import type { H160, H256 } from '@5ire/types/interfaces/runtime';
 
 /** @name EvmAccount */
 export interface EvmAccount extends Struct {

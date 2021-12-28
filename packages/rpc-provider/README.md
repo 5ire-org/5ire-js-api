@@ -19,7 +19,7 @@ yarn add @polkadot/rpc-provider
 WebSocket Initialization -
 
 ```javascript
-import { WsProvider } from '@polkadot/rpc-provider/ws';
+import { WsProvider } from '@5ire/rpc-provider/ws';
 
 // this is the actual default endpoint
 const provider = new WsProvider('ws://127.0.0.1:9944');
@@ -31,7 +31,7 @@ console.log('client version', version);
 HTTP Initialization -
 
 ```javascript
-import { HttpProvider } from '@polkadot/rpc-provider';
+import { HttpProvider } from '@5ire/rpc-provider';
 
 // this is the actual default endpoint
 const provider = new HttpProvider('http://127.0.0.1:9933');

@@ -3,7 +3,7 @@
 
 import type { Signer, SignerResult } from '@5ire/api/types';
 import type { KeyringPair } from '@polkadot/keyring/types';
-import type { Registry, SignerPayloadJSON, SignerPayloadRaw } from '@polkadot/types/types';
+import type { Registry, SignerPayloadJSON, SignerPayloadRaw } from '@5ire/types/types';
 
 import { assert, hexToU8a, u8aToHex } from '@5ire/util';
 

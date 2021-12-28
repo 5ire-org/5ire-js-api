@@ -1,18 +1,18 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { PortableType, SiLookupTypeId, SiPath, SiTypeParameter } from '@polkadot/types/interfaces';
-import type { PortableRegistry } from '@polkadot/types/metadata';
-import type { TypeDef } from '@polkadot/types/types';
+import type { PortableType, SiLookupTypeId, SiPath, SiTypeParameter } from '@5ire/types/interfaces';
+import type { PortableRegistry } from '@5ire/types/metadata';
+import type { TypeDef } from '@5ire/types/types';
 
 import Handlebars from 'handlebars';
 import path from 'path';
 
-import * as defaultDefinitions from '@polkadot/types/interfaces/definitions';
-import { Registry } from '@polkadot/types/types';
-import staticKusama from '@polkadot/types-support/metadata/static-kusama';
-import staticPolkadot from '@polkadot/types-support/metadata/static-polkadot';
-import staticSubstrate from '@polkadot/types-support/metadata/static-substrate';
+import * as defaultDefinitions from '@5ire/types/interfaces/definitions';
+import { Registry } from '@5ire/types/types';
+import staticKusama from '@5ire/types-support/metadata/static-kusama';
+import staticPolkadot from '@5ire/types-support/metadata/static-polkadot';
+import staticSubstrate from '@5ire/types-support/metadata/static-substrate';
 import { isString, stringify } from '@5ire/util';
 
 import { createImports, exportType, initMeta, readTemplate, writeFile } from '../util';
@@ -208,7 +208,7 @@ function generateLookupDefs (registry: Registry, filtered: [PortableType, TypeDe
 function generateLookupTypes (registry: Registry, filtered: [PortableType, TypeDef][], destDir: string, subPath?: string): void {
   const imports = {
     ...createImports(
-      { '@polkadot/types/interfaces': defaultDefinitions },
+      { '@5ire/types/interfaces': defaultDefinitions },
       { types: {} }
     ),
     interfaces: []

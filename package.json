@@ -11,7 +11,7 @@
   },
   "sideEffects": false,
   "type": "commonjs",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "workspaces": [
     "packages/*"
   ],
@@ -32,11 +32,11 @@
   },
   "devDependencies": {
     "@5ire/dev": "0.1.4",
+    "@5ire/typegen": "workspace:packages/typegen",
     "@babel/core": "^7.16.0",
     "@babel/register": "^7.16.0",
     "@babel/runtime": "^7.16.0",
     "@polkadot/ts": "^0.4.13",
-    "@polkadot/typegen": "workspace:packages/typegen",
     "@types/jest": "^27.0.2",
     "copyfiles": "^2.4.1"
   },

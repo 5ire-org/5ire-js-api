@@ -6,15 +6,15 @@ const config = require('@5ire/dev/config/jest.cjs');
 module.exports = {
   ...config,
   moduleNameMapper: {
-    '@polkadot/api-(contract|derive)(.*)$': '<rootDir>/packages/api-$1/src/$2',
+    '@5ire/api-(contract|derive)(.*)$': '<rootDir>/packages/api-$1/src/$2',
     // eslint-disable-next-line sort-keys
     '@5ire/api(.*)$': '<rootDir>/packages/api/src/$1',
     '@polkadot/metadata(.*)$': '<rootDir>/packages/metadata/src/$1',
-    '@polkadot/rpc-(core|provider)(.*)$': '<rootDir>/packages/rpc-$1/src/$2',
-    '@polkadot/typegen(.*)$': '<rootDir>/packages/typegen/src/$1',
-    '@polkadot/types-(known|support)(.*)$': '<rootDir>/packages/types-$1/src/$2',
+    '@5ire/rpc-(core|provider)(.*)$': '<rootDir>/packages/rpc-$1/src/$2',
+    '@5ire/typegen(.*)$': '<rootDir>/packages/typegen/src/$1',
+    '@5ire/types-(known|support)(.*)$': '<rootDir>/packages/types-$1/src/$2',
     // eslint-disable-next-line sort-keys
-    '@polkadot/types(.*)$': '<rootDir>/packages/types/src/$1'
+    '@5ire/types(.*)$': '<rootDir>/packages/types/src/$1'
   },
   testTimeout: 30000
 };

@@ -9,7 +9,7 @@
   "homepage": "https://github.com/5ire-org/5ire-js-api/tree/master/packages/types-known#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/types-known",
+  "name": "@5ire/types-known",
   "repository": {
     "directory": "packages/types-known",
     "type": "git",
@@ -20,12 +20,12 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "6.7.3-1",
+  "version": "0.2.2",
   "main": "index.js",
   "dependencies": {
+    "@5ire/types": "0.2.2",
     "@5ire/util": "^0.1.4",
     "@babel/runtime": "^7.16.0",
-    "@polkadot/networks": "^7.8.2",
-    "@polkadot/types": "6.7.3-1"
+    "@polkadot/networks": "^7.8.2"
   }
 }

@@ -3,7 +3,7 @@
 
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
-import json3 from '@polkadot/types-support/json/Header.003.json';
+import json3 from '@5ire/types-support/json/Header.003.json';
 
 import { TypeRegistry } from '../../create';
 

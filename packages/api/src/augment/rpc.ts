@@ -1,28 +1,28 @@
 // Auto-generated via `yarn polkadot-types-from-chain`, do not edit
 /* eslint-disable */
 
-import type { Bytes, HashMap, Json, Metadata, Null, Option, StorageKey, Text, U256, U64, Vec, bool, u32, u64 } from '@polkadot/types';
-import type { ExtrinsicOrHash, ExtrinsicStatus } from '@polkadot/types/interfaces/author';
-import type { EpochAuthorship } from '@polkadot/types/interfaces/babe';
-import type { BeefySignedCommitment } from '@polkadot/types/interfaces/beefy';
-import type { BlockHash } from '@polkadot/types/interfaces/chain';
-import type { PrefixedStorageKey } from '@polkadot/types/interfaces/childstate';
-import type { AuthorityId } from '@polkadot/types/interfaces/consensus';
-import type { ContractCallRequest, ContractExecResult, ContractInstantiateResult, InstantiateRequest } from '@polkadot/types/interfaces/contracts';
-import type { CreatedBlock } from '@polkadot/types/interfaces/engine';
-import type { EthAccount, EthCallRequest, EthFilter, EthFilterChanges, EthLog, EthReceipt, EthRichBlock, EthSubKind, EthSubParams, EthSyncStatus, EthTransaction, EthTransactionRequest, EthWork } from '@polkadot/types/interfaces/eth';
-import type { Extrinsic } from '@polkadot/types/interfaces/extrinsics';
-import type { EncodedFinalityProofs, JustificationNotification, ReportedRoundStates } from '@polkadot/types/interfaces/grandpa';
-import type { MmrLeafProof } from '@polkadot/types/interfaces/mmr';
-import type { StorageKind } from '@polkadot/types/interfaces/offchain';
-import type { FeeDetails, RuntimeDispatchInfo } from '@polkadot/types/interfaces/payment';
-import type { RpcMethods } from '@polkadot/types/interfaces/rpc';
-import type { AccountId, BlockNumber, H160, H256, H64, Hash, Header, Index, Justification, KeyValue, SignedBlock, StorageData } from '@polkadot/types/interfaces/runtime';
-import type { ReadProof, RuntimeVersion, TraceBlockResponse } from '@polkadot/types/interfaces/state';
-import type { ApplyExtrinsicResult, ChainProperties, ChainType, Health, NetworkState, NodeRole, PeerInfo, SyncState } from '@polkadot/types/interfaces/system';
-import type { AnyNumber, Codec, IExtrinsic, Observable } from '@polkadot/types/types';
+import type { Bytes, HashMap, Json, Metadata, Null, Option, StorageKey, Text, U256, U64, Vec, bool, u32, u64 } from '@5ire/types';
+import type { ExtrinsicOrHash, ExtrinsicStatus } from '@5ire/types/interfaces/author';
+import type { EpochAuthorship } from '@5ire/types/interfaces/babe';
+import type { BeefySignedCommitment } from '@5ire/types/interfaces/beefy';
+import type { BlockHash } from '@5ire/types/interfaces/chain';
+import type { PrefixedStorageKey } from '@5ire/types/interfaces/childstate';
+import type { AuthorityId } from '@5ire/types/interfaces/consensus';
+import type { ContractCallRequest, ContractExecResult, ContractInstantiateResult, InstantiateRequest } from '@5ire/types/interfaces/contracts';
+import type { CreatedBlock } from '@5ire/types/interfaces/engine';
+import type { EthAccount, EthCallRequest, EthFilter, EthFilterChanges, EthLog, EthReceipt, EthRichBlock, EthSubKind, EthSubParams, EthSyncStatus, EthTransaction, EthTransactionRequest, EthWork } from '@5ire/types/interfaces/eth';
+import type { Extrinsic } from '@5ire/types/interfaces/extrinsics';
+import type { EncodedFinalityProofs, JustificationNotification, ReportedRoundStates } from '@5ire/types/interfaces/grandpa';
+import type { MmrLeafProof } from '@5ire/types/interfaces/mmr';
+import type { StorageKind } from '@5ire/types/interfaces/offchain';
+import type { FeeDetails, RuntimeDispatchInfo } from '@5ire/types/interfaces/payment';
+import type { RpcMethods } from '@5ire/types/interfaces/rpc';
+import type { AccountId, BlockNumber, H160, H256, H64, Hash, Header, Index, Justification, KeyValue, SignedBlock, StorageData } from '@5ire/types/interfaces/runtime';
+import type { ReadProof, RuntimeVersion, TraceBlockResponse } from '@5ire/types/interfaces/state';
+import type { ApplyExtrinsicResult, ChainProperties, ChainType, Health, NetworkState, NodeRole, PeerInfo, SyncState } from '@5ire/types/interfaces/system';
+import type { AnyNumber, Codec, IExtrinsic, Observable } from '@5ire/types/types';
 
-declare module '@polkadot/rpc-core/types.jsonrpc' {
+declare module '@5ire/rpc-core/types.jsonrpc' {
   export interface RpcInterface {
     author: {
       /**

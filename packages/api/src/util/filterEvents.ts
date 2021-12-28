@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { EventRecord, ExtrinsicStatus, H256, SignedBlock } from '@polkadot/types/interfaces';
+import type { EventRecord, ExtrinsicStatus, H256, SignedBlock } from '@5ire/types/interfaces';
 
 import { l } from './logging';
 

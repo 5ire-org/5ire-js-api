@@ -3,10 +3,10 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option } from '@polkadot/types';
-import type { H256 } from '@polkadot/types/interfaces';
-import type { PalletDemocracyVoteThreshold } from '@polkadot/types/lookup';
-import type { ITuple } from '@polkadot/types/types';
+import type { Option } from '@5ire/types';
+import type { H256 } from '@5ire/types/interfaces';
+import type { PalletDemocracyVoteThreshold } from '@5ire/types/lookup';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveProposalExternal } from '../types';
 
 import { map, of, switchMap } from 'rxjs';

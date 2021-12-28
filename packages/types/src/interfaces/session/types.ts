@@ -1,10 +1,10 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Struct, U8aFixed, Vec, u32 } from '@polkadot/types';
-import type { AccountId, ValidatorId } from '@polkadot/types/interfaces/runtime';
-import type { Exposure } from '@polkadot/types/interfaces/staking';
-import type { ITuple } from '@polkadot/types/types';
+import type { Bytes, Struct, U8aFixed, Vec, u32 } from '@5ire/types';
+import type { AccountId, ValidatorId } from '@5ire/types/interfaces/runtime';
+import type { Exposure } from '@5ire/types/interfaces/staking';
+import type { ITuple } from '@5ire/types/types';
 
 /** @name BeefyKey */
 export interface BeefyKey extends U8aFixed {}

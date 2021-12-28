@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ApiBase } from '@5ire/api/base';
-import { TypeRegistry } from '@polkadot/types';
+import { TypeRegistry } from '@5ire/types';
 
 const registry = new TypeRegistry();
 

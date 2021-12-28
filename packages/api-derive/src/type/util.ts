@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountId, Digest } from '@polkadot/types/interfaces';
+import type { AccountId, Digest } from '@5ire/types/interfaces';
 
 export function extractAuthor (digest: Digest, sessionValidators: AccountId[] = []): AccountId | undefined {
   const [citem] = digest.logs.filter(({ type }) => type === 'Consensus');

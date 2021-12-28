@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option, u32 } from '@polkadot/types';
-import type { ActiveEraInfo, EraIndex, Moment, SessionIndex } from '@polkadot/types/interfaces';
+import type { Option, u32 } from '@5ire/types';
+import type { ActiveEraInfo, EraIndex, Moment, SessionIndex } from '@5ire/types/interfaces';
 import type { DeriveSessionIndexes } from '../types';
 
 import { map, of } from 'rxjs';

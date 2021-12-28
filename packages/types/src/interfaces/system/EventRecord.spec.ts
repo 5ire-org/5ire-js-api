@@ -4,9 +4,9 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
-import json1 from '@polkadot/types-support/json/EventRecord.001.json';
-import json3 from '@polkadot/types-support/json/EventRecord.003.json';
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import json1 from '@5ire/types-support/json/EventRecord.001.json';
+import json3 from '@5ire/types-support/json/EventRecord.003.json';
+import rpcMetadata from '@5ire/types-support/metadata/static-substrate';
 
 import { TypeRegistry } from '../../create';
 import { Metadata } from '../../metadata';

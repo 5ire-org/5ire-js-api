@@ -1,11 +1,11 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Compact, Enum, Null, Option, Struct, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@polkadot/types';
-import type { PerU16 } from '@polkadot/types/interfaces/runtime';
-import type { ITuple } from '@polkadot/types/types';
+import type { Bytes, Compact, Enum, Null, Option, Struct, U8aFixed, Vec, bool, u128, u16, u32, u64, u8 } from '@5ire/types';
+import type { PerU16 } from '@5ire/types/interfaces/runtime';
+import type { ITuple } from '@5ire/types/types';
 
-declare module '@polkadot/types/lookup' {
+declare module '@5ire/types/lookup' {
 
   /** @name KusamaRuntimeProxyType (74) */
   export interface KusamaRuntimeProxyType extends Enum {

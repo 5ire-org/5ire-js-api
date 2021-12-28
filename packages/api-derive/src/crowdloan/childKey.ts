@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option } from '@polkadot/types';
-import type { PolkadotRuntimeCommonCrowdloanFundInfo } from '@polkadot/types/lookup';
+import type { Option } from '@5ire/types';
+import type { PolkadotRuntimeCommonCrowdloanFundInfo } from '@5ire/types/lookup';
 import type { BN } from '@5ire/util';
 
 import { map } from 'rxjs';

@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx, QueryableStorageEntry } from '@5ire/api/types';
-import type { AccountData, AccountId, AccountIndex, AccountInfo, Address, Balance, Index } from '@polkadot/types/interfaces';
-import type { ITuple } from '@polkadot/types/types';
+import type { AccountData, AccountId, AccountIndex, AccountInfo, Address, Balance, Index } from '@5ire/types/interfaces';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveBalancesAccount, DeriveBalancesAccountData } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

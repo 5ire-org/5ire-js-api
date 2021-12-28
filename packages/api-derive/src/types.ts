@@ -1,9 +1,9 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { u32 } from '@polkadot/types';
-import type { Balance, BlockNumber, BountyIndex, Hash, Proposal, ProposalIndex, SetIndex, Votes } from '@polkadot/types/interfaces';
-import type { PalletBountiesBounty, PalletTreasuryProposal } from '@polkadot/types/lookup';
+import type { u32 } from '@5ire/types';
+import type { Balance, BlockNumber, BountyIndex, Hash, Proposal, ProposalIndex, SetIndex, Votes } from '@5ire/types/interfaces';
+import type { PalletBountiesBounty, PalletTreasuryProposal } from '@5ire/types/lookup';
 import type { BN } from '@5ire/util';
 
 export * from './accounts/types';

@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Raw, u32 } from '@polkadot/types';
-import type { Releases } from '@polkadot/types/interfaces';
-import type { InterfaceTypes } from '@polkadot/types/types';
+import type { Raw, u32 } from '@5ire/types';
+import type { Releases } from '@5ire/types/interfaces';
+import type { InterfaceTypes } from '@5ire/types/types';
 
 import { catchError, combineLatest, map, of, take } from 'rxjs';
 

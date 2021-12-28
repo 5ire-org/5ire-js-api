@@ -4,7 +4,7 @@
 import type { PropIndex } from '../interfaces/democracy';
 import type { Codec, CodecTo, ITuple } from '../types';
 
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import rpcMetadata from '@5ire/types-support/metadata/static-substrate';
 import { randomAsU8a } from '@polkadot/util-crypto';
 
 import { createTypeUnsafe, TypeRegistry } from '../create';

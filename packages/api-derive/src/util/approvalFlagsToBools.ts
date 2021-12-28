@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Vec } from '@polkadot/types';
-import type { ApprovalFlag } from '@polkadot/types/interfaces/elections';
+import type { Vec } from '@5ire/types';
+import type { ApprovalFlag } from '@5ire/types/interfaces/elections';
 
 /** @internal */
 export function approvalFlagsToBools (flags: Vec<ApprovalFlag> | ApprovalFlag[]): boolean[] {

@@ -7,8 +7,8 @@ import { jest } from '@jest/globals';
 
 import { createPair } from '@polkadot/keyring/pair';
 import { createTestKeyring } from '@polkadot/keyring/testing';
-import { MockProvider } from '@polkadot/rpc-provider/mock';
-import { TypeRegistry } from '@polkadot/types';
+import { MockProvider } from '@5ire/rpc-provider/mock';
+import { TypeRegistry } from '@5ire/types';
 import { hexToU8a } from '@5ire/util';
 
 import { SingleAccountSigner } from '../../test/util';

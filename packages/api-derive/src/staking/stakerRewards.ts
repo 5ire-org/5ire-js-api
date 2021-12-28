@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { AccountId, EraIndex } from '@polkadot/types/interfaces';
-import type { PalletStakingStakingLedger } from '@polkadot/types/lookup';
+import type { AccountId, EraIndex } from '@5ire/types/interfaces';
+import type { PalletStakingStakingLedger } from '@5ire/types/lookup';
 import type { BN } from '@5ire/util';
 import type { DeriveEraPoints, DeriveEraPrefs, DeriveEraRewards, DeriveEraValPrefs, DeriveStakerExposure, DeriveStakerReward, DeriveStakerRewardValidator } from '../types';
 import type { DeriveStakingQuery } from './types';

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { Codec, DefinitionRpc } from '@polkadot/types/types';
+import type { Codec, DefinitionRpc } from '@5ire/types/types';
 
 export * from './types.jsonrpc';
 

@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/rpc-provider authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Constructor } from '@polkadot/types/types';
+import type { Constructor } from '@5ire/types/types';
 import type { Request } from '../../test/mockWs';
 
 import { mockWs } from '../../test/mockWs';

@@ -1,13 +1,13 @@
 // Copyright 2017-2021 @polkadot/typegen authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { TypeRegistry } from '@polkadot/types/create';
-import type { Definitions } from '@polkadot/types/types';
+import type { TypeRegistry } from '@5ire/types/create';
+import type { Definitions } from '@5ire/types/types';
 import type { ExtraTypes } from './types';
 
 import Handlebars from 'handlebars';
 
-import * as defaultDefinitions from '@polkadot/types/interfaces/definitions';
+import * as defaultDefinitions from '@5ire/types/interfaces/definitions';
 
 import { createImports, formatType, getSimilarTypes, initMeta, readTemplate, setImports, writeFile } from '../util';
 
@@ -32,7 +32,7 @@ const generateRpcTypesTemplate = Handlebars.compile(template);
 /** @internal */
 export function generateRpcTypes (registry: TypeRegistry, importDefinitions: Record<string, Definitions>, dest: string, extraTypes: ExtraTypes = {}): void {
   writeFile(dest, (): string => {
-    const allTypes: ExtraTypes = { '@polkadot/types/interfaces': importDefinitions, ...extraTypes };
+    const allTypes: ExtraTypes = { '@5ire/types/interfaces': importDefinitions, ...extraTypes };
     const imports = createImports(allTypes);
     const definitions = imports.definitions as Record<string, Definitions>;
     const allDefs = Object.entries(allTypes).reduce((defs, [path, obj]) => {
@@ -132,7 +132,7 @@ export function generateRpcTypes (registry: TypeRegistry, importDefinitions: Rec
       modules,
       types: [
         ...Object.keys(imports.localTypes).sort().map((packagePath): { file: string; types: string[] } => ({
-          file: packagePath.replace('@polkadot/types/augment', '@polkadot/types'),
+          file: packagePath.replace('@5ire/types/augment', '@5ire/types'),
           types: Object.keys(imports.localTypes[packagePath])
         }))
       ]

@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { u32 } from '@polkadot/types';
-import type { AccountId, Balance, BlockNumber, SetIndex, VoteIndex } from '@polkadot/types/interfaces';
+import type { u32 } from '@5ire/types';
+import type { AccountId, Balance, BlockNumber, SetIndex, VoteIndex } from '@5ire/types/interfaces';
 
 export interface DeriveElectionsInfo {
   candidates: AccountId[];

@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Hash } from '@polkadot/types/interfaces';
+import type { Hash } from '@5ire/types/interfaces';
 import type { DeriveProposalImage } from '../types';
 
 import { map, of } from 'rxjs';

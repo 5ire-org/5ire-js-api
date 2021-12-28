@@ -1,10 +1,10 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Enum, Option, Struct, U8aFixed, Vec, u32, u64 } from '@polkadot/types';
-import type { AuthorityId } from '@polkadot/types/interfaces/consensus';
-import type { Hash, Header } from '@polkadot/types/interfaces/runtime';
-import type { ITuple } from '@polkadot/types/types';
+import type { Enum, Option, Struct, U8aFixed, Vec, u32, u64 } from '@5ire/types';
+import type { AuthorityId } from '@5ire/types/interfaces/consensus';
+import type { Hash, Header } from '@5ire/types/interfaces/runtime';
+import type { ITuple } from '@5ire/types/types';
 
 /** @name AllowedSlots */
 export interface AllowedSlots extends Enum {

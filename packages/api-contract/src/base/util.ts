@@ -8,7 +8,7 @@ import type { BN } from '@5ire/util';
 import type { AbiConstructor, BlueprintOptions } from '../types';
 import type { BlueprintDeploy, ContractGeneric } from './types';
 
-import { Bytes } from '@polkadot/types';
+import { Bytes } from '@5ire/types';
 import { compactAddLength, u8aToU8a } from '@5ire/util';
 import { randomAsU8a } from '@polkadot/util-crypto';
 

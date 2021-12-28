@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observable } from 'rxjs';
-import type { StorageKey, u64 } from '@polkadot/types';
-import type { Hash } from '@polkadot/types/interfaces';
-import type { StorageEntry } from '@polkadot/types/primitive/types';
-import type { AnyFunction, AnyTuple, Callback, Codec, IStorageKey } from '@polkadot/types/types';
+import type { StorageKey, u64 } from '@5ire/types';
+import type { Hash } from '@5ire/types/interfaces';
+import type { StorageEntry } from '@5ire/types/primitive/types';
+import type { AnyFunction, AnyTuple, Callback, Codec, IStorageKey } from '@5ire/types/types';
 import type { ApiTypes, DropLast, MethodResult, ObsInnerType, PaginationOptions, PromiseOrObs, UnsubscribePromise } from './base';
 
 type AsCodec<R extends Codec | any> = R extends Codec

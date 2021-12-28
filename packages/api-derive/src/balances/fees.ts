@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Balance } from '@polkadot/types/interfaces';
+import type { Balance } from '@5ire/types/interfaces';
 import type { DeriveFees } from '../types';
 
 import { map, of } from 'rxjs';

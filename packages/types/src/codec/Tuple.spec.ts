@@ -6,7 +6,7 @@ import type { BlockNumber } from '../interfaces/runtime';
 import type { CodecTo } from '../types';
 import type { AnyTupleValue } from './Tuple';
 
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import rpcMetadata from '@5ire/types-support/metadata/static-substrate';
 
 import { TypeRegistry } from '../create';
 import { Metadata } from '../metadata';

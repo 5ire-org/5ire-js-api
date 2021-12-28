@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import staticLatest from '@polkadot/types-support/metadata/static-substrate';
-import staticV13 from '@polkadot/types-support/metadata/v13/substrate-hex';
+import staticLatest from '@5ire/types-support/metadata/static-substrate';
+import staticV13 from '@5ire/types-support/metadata/v13/substrate-hex';
 
 import { TypeRegistry } from '../../create';
 import { Metadata } from '../Metadata';

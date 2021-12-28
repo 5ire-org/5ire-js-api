@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { PalletDemocracyReferendumInfo } from '@polkadot/types/lookup';
+import type { PalletDemocracyReferendumInfo } from '@5ire/types/lookup';
 
 import { map, switchMap } from 'rxjs';
 

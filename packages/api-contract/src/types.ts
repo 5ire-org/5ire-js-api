@@ -3,9 +3,9 @@
 
 import type { ApiBase } from '@5ire/api/base';
 import type { ApiTypes } from '@5ire/api/types';
-import type { Text, u64 } from '@polkadot/types';
-import type { ContractExecResultResult, ContractSelector } from '@polkadot/types/interfaces';
-import type { Codec, TypeDef } from '@polkadot/types/types';
+import type { Text, u64 } from '@5ire/types';
+import type { ContractExecResultResult, ContractSelector } from '@5ire/types/interfaces';
+import type { Codec, TypeDef } from '@5ire/types/types';
 import type { BN } from '@5ire/util';
 import type { Abi } from '.';
 

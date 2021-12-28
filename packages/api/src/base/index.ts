@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { SignerPayloadRawBase } from '@polkadot/types/types';
+import type { SignerPayloadRawBase } from '@5ire/types/types';
 import type { ApiOptions, ApiTypes, DecorateMethod, Signer } from '../types';
 
 import { assert, isString, objectSpread, u8aToHex, u8aToU8a } from '@5ire/util';

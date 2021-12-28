@@ -3,10 +3,10 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option } from '@polkadot/types';
-import type { BalanceOf } from '@polkadot/types/interfaces';
-import type { PalletSocietyBid, PalletSocietyBidKind } from '@polkadot/types/lookup';
-import type { ITuple } from '@polkadot/types/types';
+import type { Option } from '@5ire/types';
+import type { BalanceOf } from '@5ire/types/interfaces';
+import type { PalletSocietyBid, PalletSocietyBidKind } from '@5ire/types/lookup';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveSocietyCandidate } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

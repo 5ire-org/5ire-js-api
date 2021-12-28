@@ -2,16 +2,16 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { Observer } from 'rxjs';
-import type { ProviderInterface, ProviderInterfaceCallback } from '@polkadot/rpc-provider/types';
-import type { StorageKey, Vec } from '@polkadot/types';
-import type { Hash } from '@polkadot/types/interfaces';
-import type { AnyJson, Codec, DefinitionRpc, DefinitionRpcExt, DefinitionRpcSub, Registry } from '@polkadot/types/types';
+import type { ProviderInterface, ProviderInterfaceCallback } from '@5ire/rpc-provider/types';
+import type { StorageKey, Vec } from '@5ire/types';
+import type { Hash } from '@5ire/types/interfaces';
+import type { AnyJson, Codec, DefinitionRpc, DefinitionRpcExt, DefinitionRpcSub, Registry } from '@5ire/types/types';
 import type { Memoized } from '@5ire/util/types';
 import type { RpcInterfaceMethod } from './types';
 
 import { Observable, publishReplay, refCount } from 'rxjs';
 
-import { rpcDefinitions } from '@polkadot/types';
+import { rpcDefinitions } from '@5ire/types';
 import { assert, hexToU8a, isFunction, isNull, isUndefined, lazyMethod, logger, memoize, objectSpread, u8aToU8a } from '@5ire/util';
 
 import { drr, refCountDelay } from './util';
@@ -67,8 +67,8 @@ function isTreatAsHex (key: StorageKey): boolean {
  * <BR>
  *
  * ```javascript
- * import Rpc from '@polkadot/rpc-core';
- * import { WsProvider } from '@polkadot/rpc-provider/ws';
+ * import Rpc from '@5ire/rpc-core';
+ * import { WsProvider } from '@5ire/rpc-provider/ws';
  *
  * const provider = new WsProvider('ws://127.0.0.1:9944');
  * const rpc = new Rpc(provider);

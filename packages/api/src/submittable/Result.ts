@@ -1,8 +1,8 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { DispatchError, DispatchInfo, EventRecord, ExtrinsicStatus } from '@polkadot/types/interfaces';
-import type { AnyJson, ISubmittableResult } from '@polkadot/types/types';
+import type { DispatchError, DispatchInfo, EventRecord, ExtrinsicStatus } from '@5ire/types/interfaces';
+import type { AnyJson, ISubmittableResult } from '@5ire/types/types';
 import type { SubmittableResultValue } from './types';
 
 const recordIdentity = (record: EventRecord) => record;

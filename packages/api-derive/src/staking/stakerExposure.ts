@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { EraIndex } from '@polkadot/types/interfaces';
+import type { EraIndex } from '@5ire/types/interfaces';
 import type { DeriveEraValidatorExposure, DeriveStakerExposure } from '../types';
 
 import { map, switchMap } from 'rxjs';

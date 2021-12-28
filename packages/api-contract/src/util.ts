@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import type { SubmittableResult } from '@5ire/api';
-import type { EventRecord } from '@polkadot/types/interfaces';
+import type { EventRecord } from '@5ire/types/interfaces';
 import type { BN } from '@5ire/util';
 import type { BlueprintOptions, ContractOptions } from './types';
 

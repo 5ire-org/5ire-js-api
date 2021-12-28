@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx, QueryableStorageMultiArg } from '@5ire/api/types';
-import type { EraIndex } from '@polkadot/types/interfaces';
-import type { PalletStakingExposure } from '@polkadot/types/lookup';
+import type { EraIndex } from '@5ire/types/interfaces';
+import type { PalletStakingExposure } from '@5ire/types/lookup';
 import type { DeriveOwnExposure } from '../types';
 
 import { map, of, switchMap } from 'rxjs';

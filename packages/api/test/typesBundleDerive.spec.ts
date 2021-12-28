@@ -3,15 +3,15 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Enum, Struct } from '@polkadot/types';
-import type { Option } from '@polkadot/types/codec';
-import type { AccountId, AccountIndex, AccountInfo, Address, Balance, BlockNumber, Index } from '@polkadot/types/interfaces';
+import type { Enum, Struct } from '@5ire/types';
+import type { Option } from '@5ire/types/codec';
+import type { AccountId, AccountIndex, AccountInfo, Address, Balance, BlockNumber, Index } from '@5ire/types/interfaces';
 
 import { jest } from '@jest/globals';
 import { combineLatest, map, of, switchMap } from 'rxjs';
 
 import { ApiPromise, WsProvider } from '@5ire/api';
-import { memo } from '@polkadot/rpc-core';
+import { memo } from '@5ire/rpc-core';
 
 interface VestingInfo extends Struct {
   readonly locked: Balance;

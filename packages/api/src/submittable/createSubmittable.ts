@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { Call, Extrinsic } from '@polkadot/types/interfaces';
+import type { Call, Extrinsic } from '@5ire/types/interfaces';
 import type { ApiInterfaceRx, ApiTypes } from '../types';
 import type { SubmittableExtrinsic } from './types';
 

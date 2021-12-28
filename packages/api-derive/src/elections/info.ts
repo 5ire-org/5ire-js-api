@@ -3,10 +3,10 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { u32, Vec } from '@polkadot/types';
-import type { AccountId, Balance, BlockNumber } from '@polkadot/types/interfaces';
-import type { PalletElectionsPhragmenSeatHolder } from '@polkadot/types/lookup';
-import type { ITuple } from '@polkadot/types/types';
+import type { u32, Vec } from '@5ire/types';
+import type { AccountId, Balance, BlockNumber } from '@5ire/types/interfaces';
+import type { PalletElectionsPhragmenSeatHolder } from '@5ire/types/lookup';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveElectionsInfo } from './types';
 
 import { combineLatest, map, of } from 'rxjs';

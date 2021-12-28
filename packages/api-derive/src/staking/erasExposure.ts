@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { StorageKey } from '@polkadot/types';
-import type { AccountId, EraIndex } from '@polkadot/types/interfaces';
-import type { PalletStakingExposure } from '@polkadot/types/lookup';
+import type { StorageKey } from '@5ire/types';
+import type { AccountId, EraIndex } from '@5ire/types/interfaces';
+import type { PalletStakingExposure } from '@5ire/types/lookup';
 import type { DeriveEraExposure, DeriveEraNominatorExposure, DeriveEraValidatorExposure } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

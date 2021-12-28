@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/rpc-provider authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import { TypeRegistry } from '@polkadot/types/create';
+import { TypeRegistry } from '@5ire/types/create';
 
 import { MockProvider } from './';
 

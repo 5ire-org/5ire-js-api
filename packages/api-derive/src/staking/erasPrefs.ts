@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { StorageKey } from '@polkadot/types';
-import type { EraIndex } from '@polkadot/types/interfaces';
-import type { PalletStakingValidatorPrefs } from '@polkadot/types/lookup';
+import type { StorageKey } from '@5ire/types';
+import type { EraIndex } from '@5ire/types/interfaces';
+import type { PalletStakingValidatorPrefs } from '@5ire/types/lookup';
 import type { DeriveEraPrefs, DeriveEraValPrefs } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

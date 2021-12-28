@@ -3,7 +3,7 @@
 
 import type { AnyTuple, IEvent } from '../../../types';
 
-import rpcMetadata from '@polkadot/types-support/metadata/static-substrate';
+import rpcMetadata from '@5ire/types-support/metadata/static-substrate';
 
 import { TypeRegistry } from '../../../create';
 import { Metadata } from '../../Metadata';

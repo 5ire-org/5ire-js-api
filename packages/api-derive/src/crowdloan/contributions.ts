@@ -3,7 +3,7 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { StorageKey } from '@polkadot/types';
+import type { StorageKey } from '@5ire/types';
 import type { BN } from '@5ire/util';
 import type { DeriveContributions } from '../types';
 

@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Header, Index } from '@polkadot/types/interfaces';
-import type { AnyNumber, Codec, IExtrinsicEra } from '@polkadot/types/types';
+import type { Header, Index } from '@5ire/types/interfaces';
+import type { AnyNumber, Codec, IExtrinsicEra } from '@5ire/types/types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';
 

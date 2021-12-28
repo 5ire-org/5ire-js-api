@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Struct, u32 } from '@polkadot/types';
-import type { AccountId, Balance, BlockNumber, Perquintill } from '@polkadot/types/interfaces/runtime';
+import type { Struct, u32 } from '@5ire/types';
+import type { AccountId, Balance, BlockNumber, Perquintill } from '@5ire/types/interfaces/runtime';
 
 /** @name ActiveGilt */
 export interface ActiveGilt extends Struct {

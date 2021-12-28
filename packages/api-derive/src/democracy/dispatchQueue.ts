@@ -3,10 +3,10 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Option, Vec } from '@polkadot/types';
-import type { BlockNumber, Hash, ReferendumIndex } from '@polkadot/types/interfaces';
-import type { PalletSchedulerScheduledV2 } from '@polkadot/types/lookup';
-import type { ITuple } from '@polkadot/types/types';
+import type { Option, Vec } from '@5ire/types';
+import type { BlockNumber, Hash, ReferendumIndex } from '@5ire/types/interfaces';
+import type { PalletSchedulerScheduledV2 } from '@5ire/types/lookup';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveDispatch, DeriveProposalImage } from '../types';
 
 import { catchError, combineLatest, map, of, switchMap } from 'rxjs';

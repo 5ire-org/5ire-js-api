@@ -3,8 +3,8 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { AccountId, ReferendumInfoTo239, Vote } from '@polkadot/types/interfaces';
-import type { PalletDemocracyReferendumInfo, PalletDemocracyVoteVoting } from '@polkadot/types/lookup';
+import type { AccountId, ReferendumInfoTo239, Vote } from '@5ire/types/interfaces';
+import type { PalletDemocracyReferendumInfo, PalletDemocracyVoteVoting } from '@5ire/types/lookup';
 import type { BN } from '@5ire/util';
 import type { DeriveDemocracyLock } from '../types';
 

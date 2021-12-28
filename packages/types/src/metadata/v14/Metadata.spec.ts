@@ -1,15 +1,15 @@
 // Copyright 2017-2021 @polkadot/types authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import kusamaData from '@polkadot/types-support/metadata/v14/kusama-hex';
-import kusamaJson from '@polkadot/types-support/metadata/v14/kusama-json.json';
-import kusamaTypes from '@polkadot/types-support/metadata/v14/kusama-types.json';
-import polkadotData from '@polkadot/types-support/metadata/v14/polkadot-hex';
-import polkadotJson from '@polkadot/types-support/metadata/v14/polkadot-json.json';
-import polkadotTypes from '@polkadot/types-support/metadata/v14/polkadot-types.json';
-import substrateData from '@polkadot/types-support/metadata/v14/substrate-hex';
-import substrateJson from '@polkadot/types-support/metadata/v14/substrate-json.json';
-import substrateTypes from '@polkadot/types-support/metadata/v14/substrate-types.json';
+import kusamaData from '@5ire/types-support/metadata/v14/kusama-hex';
+import kusamaJson from '@5ire/types-support/metadata/v14/kusama-json.json';
+import kusamaTypes from '@5ire/types-support/metadata/v14/kusama-types.json';
+import polkadotData from '@5ire/types-support/metadata/v14/polkadot-hex';
+import polkadotJson from '@5ire/types-support/metadata/v14/polkadot-json.json';
+import polkadotTypes from '@5ire/types-support/metadata/v14/polkadot-types.json';
+import substrateData from '@5ire/types-support/metadata/v14/substrate-hex';
+import substrateJson from '@5ire/types-support/metadata/v14/substrate-json.json';
+import substrateTypes from '@5ire/types-support/metadata/v14/substrate-types.json';
 
 import { testMeta } from '../util/testUtil';
 

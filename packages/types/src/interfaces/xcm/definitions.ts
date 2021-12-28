@@ -6,7 +6,7 @@
 
 import type { Definitions } from '../../types';
 
-import { mapXcmTypes } from '@polkadot/types-known';
+import { mapXcmTypes } from '@5ire/types-known';
 import { objectSpread } from '@5ire/util';
 
 import { v0 } from './v0';

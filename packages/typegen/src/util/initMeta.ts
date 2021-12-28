@@ -3,8 +3,8 @@
 
 import type { ExtraTypes } from '../generate/types';
 
-import { Metadata, TypeRegistry } from '@polkadot/types';
-import staticSubstrate from '@polkadot/types-support/metadata/static-substrate';
+import { Metadata, TypeRegistry } from '@5ire/types';
+import staticSubstrate from '@5ire/types-support/metadata/static-substrate';
 
 import { registerDefinitions } from './register';
 

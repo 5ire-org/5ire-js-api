@@ -3,9 +3,9 @@
 
 import type { Observable } from 'rxjs';
 import type { ApiInterfaceRx } from '@5ire/api/types';
-import type { Bytes, Option, u32 } from '@polkadot/types';
-import type { AccountId, AccountIndex, Address, Balance } from '@polkadot/types/interfaces';
-import type { ITuple } from '@polkadot/types/types';
+import type { Bytes, Option, u32 } from '@5ire/types';
+import type { AccountId, AccountIndex, Address, Balance } from '@5ire/types/interfaces';
+import type { ITuple } from '@5ire/types/types';
 import type { DeriveAccountInfo, DeriveAccountRegistration } from '../types';
 
 import { combineLatest, map, of, switchMap } from 'rxjs';

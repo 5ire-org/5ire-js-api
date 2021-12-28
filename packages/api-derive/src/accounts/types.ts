@@ -1,7 +1,7 @@
 // Copyright 2017-2021 @polkadot/api-derive authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { AccountId, AccountIndex, RegistrationJudgement } from '@polkadot/types/interfaces';
+import type { AccountId, AccountIndex, RegistrationJudgement } from '@5ire/types/interfaces';
 
 export type AccountIdAndIndex = [AccountId?, AccountIndex?];
 

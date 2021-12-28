@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { ApiInterfaceRx } from '@5ire/api/types';
-import { DeriveCollectiveProposal } from '@polkadot/api-derive/types';
+import { DeriveCollectiveProposal } from '@5ire/api-derive/types';
 
 export function filterBountiesProposals (api: ApiInterfaceRx, allProposals: DeriveCollectiveProposal[]): DeriveCollectiveProposal[] {
   const bountyTxBase = api.tx.bounties ? api.tx.bounties : api.tx.treasury;
